@@ -2,6 +2,7 @@ import "../assets/styles/home.scss"
 import Header from "../components/Header"
 import Carousel from "../components/Carousel";
 import CarouselCard from "../components/CarouselCard";
+import RecentNews from "../components/RecentNews"
 
 function Home() {
     return (
@@ -11,6 +12,8 @@ function Home() {
         <Carousel/>
 
         <CarouselCard/>
+
+        <RecentNews />
 
       </>
     );

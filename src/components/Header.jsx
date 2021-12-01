@@ -22,13 +22,13 @@ function Header() {
           <div className="offcanvas-body">
 
             <ul className="navbar-nav justify-content-center align-items-center flex-grow-1">
-              <li className="nav-item me-3">
+              <li className="nav-item me-lg-3">
                 <a className="nav-link " aria-current="page" href="#about">Watches</a>
               </li>
-              <li className="nav-item ms-3 me-5">
+              <li className="nav-item ms-lg-3 me-lg-5">
                 <a className="nav-link" href="#learning">Eyewear</a>
               </li>
-              <li className="nav-item ms-5">
+              <li className="nav-item ms-lg-5">
                 <a className="nav-link" href="#learning">About</a>
               </li>
             </ul>

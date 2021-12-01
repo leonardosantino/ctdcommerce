@@ -9,7 +9,7 @@ import Card from "./Card";
 function CarouselCard() {
   return (
     <>
-      <div className="carouselCard px-5 mb-5">
+      <div className="carouselCard px-5">
         New products
         <hr />
       </div>
@@ -23,7 +23,7 @@ function CarouselCard() {
             </div>
             <div class="carousel-item">
               <div className="d-flex justify-content-evenly">
-                <Card img={imgClock4}/> <Card img={imgClock1}/> <Card  img={imgClock2}/>
+                <Card img={imgClock4} /> <Card img={imgClock1} /> <Card img={imgClock2} />
               </div>
             </div>
           </div>

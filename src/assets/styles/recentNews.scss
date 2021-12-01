@@ -1,0 +1,49 @@
+.recent-news{
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5em;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    color: #333333;
+    
+    hr{
+        width: 5em;
+        border: 1px solid #000000;
+    }
+}
+.text{
+    align-self: center;
+}
+
+.text-top{
+    font-family: Taviraj;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+    /* identical to box height, or 200% */
+    
+    letter-spacing: 0.02em;
+    
+    color: #777777;
+
+
+
+}
+.text-bottom{
+    font-family: Taviraj;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 48px;
+    /* or 133% */
+
+    letter-spacing: 0.02em;
+
+    color: #333333;
+
+}
+.recent-news img{
+    max-height: 20em;
+}
