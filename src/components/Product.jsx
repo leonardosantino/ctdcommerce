@@ -19,7 +19,6 @@ function Product() {
           <div className="mt-5">
             <a href="#product" class="btn btn-primary"><img className="img-fluid" src={imgAddCart} alt="" /> Add to cart</a>
           </div>
-
         </div>
       </div>
       <div className="details mt-5">

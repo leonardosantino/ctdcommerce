@@ -2,10 +2,11 @@
     font-family: 'Taviraj', serif;
     
     .product-img img{
-        height: 25em;
+        max-height: 25em;
     }
     
     hr{
+        
         border-top: 3px solid rgba(255, 255, 255, 0.233);
     }
     .product-title{

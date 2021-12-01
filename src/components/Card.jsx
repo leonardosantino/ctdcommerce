@@ -1,14 +1,12 @@
 import "../assets/styles/card.scss"
 import imgAddCart from "../assets/imgs/imgAddCart.png"
 
-import imgClock from "../assets/imgs/imgClock1.png";
-
-function Card() {
+function Card({img}) {
     return (
         <>
             <div class="card">
 
-                <img src={imgClock} class="card-img-top" alt="..." />
+                <img src={img} class="card-img-top" alt="..." />
 
                 <div class="card-body">
 
