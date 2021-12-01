@@ -7,7 +7,7 @@ function Carousel() {
     <> <div className="carouselsection  ps-5">
       <div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="10000">
+          <div class="carousel-item active">
             <img src={imgCarousel1} class="d-block w-100" alt="..." />
           </div>
           <div class="carousel-item">
