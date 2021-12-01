@@ -8,7 +8,7 @@ function Home() {
       <>
         <Header/>
         <Carousel/>
-        <div className="d-flex justify-content-center">
+        <div className="d-flex justify-content-between px-5">
         <Card/> <Card/> <Card/> <Card/> <Card/>
         </div>
         
