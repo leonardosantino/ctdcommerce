@@ -1,0 +1,27 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+    background-color: #ffffff;
+    .logotipo {
+        width: 5rem;
+    }
+
+    span {
+        font-family: "Open Sans", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        //font-size: 1rem;
+        line-height: 19px;
+        color: rgba(0,0,0,.55);
+        a{
+            color: rgba(0,0,0,.55);
+            &:hover {
+                color: #0072ce !important;
+            }
+        }
+        
+        
+    }
+}

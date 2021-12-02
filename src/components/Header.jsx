@@ -1,5 +1,6 @@
 import "../assets/styles/header.scss"
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
+import imgCtd from "../assets/imgs/logotipo.png";
 import Breadcrumb from 'react-bootstrap/Breadcrumb'
 
 function Header({ currentlyPath }) {
@@ -9,8 +10,7 @@ function Header({ currentlyPath }) {
 
         <div className="container-fluid">
 
-          <Link to="/" className="navbar-brand">CTD Commerce</Link>
-
+          <NavLink to="/" className="navbar-brand p-0 m-0"><img src={imgCtd} alt="logotipo" className="img-fluid logotipo"/></NavLink>
           <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
 
             <div className="offcanvas-header">
@@ -21,7 +21,7 @@ function Header({ currentlyPath }) {
 
               <ul className="navbar-nav justify-content-center align-items-center flex-grow-1">
                 <li className="nav-item me-lg-3">
-                  <Link to="/playstation" className="nav-link">Playstation</Link>
+                  <NavLink to="/playstation" className="nav-link">Playstation</NavLink>
                 </li>
                 <li className="nav-item ms-lg-3 me-lg-5">
                   <Link to="/xbox" className="nav-link">Xbox</Link>
