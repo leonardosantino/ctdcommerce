@@ -1,39 +1,43 @@
 import "../assets/styles/carouselcard.scss"
-import imgClock1 from "../assets/imgs/watches/imgClock1.png"
-import imgClock2 from "../assets/imgs/watches/imgClock2.png"
-import imgClock3 from "../assets/imgs/watches/imgClock3.png"
-import imgClock4 from "../assets/imgs/watches/imgClock4.png"
+import imgGame1 from "../assets/imgs/games/imgGame1.png"
+import imgGame2 from "../assets/imgs/games/imgGame2.png"
+import imgGame3 from "../assets/imgs/games/imgGame3.png"
+import imgGame4 from "../assets/imgs/games/imgGame4.png"
+import imgGame5 from "../assets/imgs/games/imgGame5.png"
+import imgGame6 from "../assets/imgs/games/imgGame6.png"
+
+
 
 import Card from "./Card";
 
 function CarouselCard() {
   return (
     <>
-      <div className="carouselCard px-5">
+      <div className="carousel-tile px-5">
         New products
         <hr />
       </div>
-      <div className="carouselsection  ps-5">
-        <div id="carouselCard" class="carousel slide" data-bs-ride="carouselCard">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
+      <div className="carouselsection">
+        <div id="carouselCard" className="carousel slide" data-bs-ride="carouselCard">
+          <div className="carousel-inner">
+            <div className="carousel-item active">
               <div className="d-flex justify-content-evenly">
-                <Card img={imgClock1} /> <Card img={imgClock2} /> <Card img={imgClock3} />
+                <Card img={imgGame1} /> <Card img={imgGame2} /> <Card img={imgGame3} />
               </div>
             </div>
-            <div class="carousel-item">
+            <div className="carousel-item">
               <div className="d-flex justify-content-evenly">
-                <Card img={imgClock4} /> <Card img={imgClock1} /> <Card img={imgClock2} />
+                <Card img={imgGame4} /> <Card img={imgGame5} /> <Card img={imgGame6} />
               </div>
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselCard" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
+          <button className="carousel-control-prev" type="button" data-bs-target="#carouselCard" data-bs-slide="prev">
+            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselCard" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
+          <button className="carousel-control-next" type="button" data-bs-target="#carouselCard" data-bs-slide="next">
+            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">Next</span>
           </button>
         </div>
       </div>

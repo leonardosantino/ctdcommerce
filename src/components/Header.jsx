@@ -1,8 +1,4 @@
 import "../assets/styles/header.scss"
-import imgCart from "../assets/imgs/imgCart.png"
-import imgSearch from "../assets/imgs/imgSearch.png"
-import imgUser from "../assets/imgs/imgUser.png"
-import imgCtd from "../assets/imgs/imgCtd.png"
 import { Link } from 'react-router-dom'
 import Breadcrumb from 'react-bootstrap/Breadcrumb'
 
@@ -11,9 +7,9 @@ function Header({ currentlyPath }) {
     <>
       <nav className="navbar navbar-expand-lg navbar-light" aria-label="Main navigation">
 
-        <div className="container-fluid px-5">
+        <div className="container-fluid">
 
-          <Link to="/" className="navbar-brand"><img src={imgCtd} alt="" /></Link>
+          <Link to="/" className="navbar-brand">CTD Commerce</Link>
 
           <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
 
@@ -38,13 +34,13 @@ function Header({ currentlyPath }) {
           </div>
           <div className="d-flex flex-grow-1 justify-content-around">
             <div>
-              <a class="link-secondary text-decoration-none" href="#search" aria-label="Search"><img src={imgSearch} alt="" />SEARCH</a>
+              <a className="link-secondary text-decoration-none" href="#search" aria-label="Search"><i className="bi bi-search"></i>&nbsp; SEARCH</a>
             </div>
             <div>
-              <a class="link-secondary text-decoration-none" href="#user" aria-label="User"><img src={imgUser} alt="" />SIGN IN</a>
+              <a className="link-secondary text-decoration-none" href="#user" aria-label="User"><i className="bi bi-person-circle"></i>&nbsp; SIGN IN</a>
             </div>
             <div>
-              <a className="link-secondary" href="#cart" aria-label="Car"><img src={imgCart} alt="" /></a>
+              <a className="link-secondary" href="#cart" aria-label="Car"><i className="bi bi-bag"></i></a>
             </div>
           </div>
           <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -53,7 +49,7 @@ function Header({ currentlyPath }) {
         </div>
       </nav>
       {currentlyPath !== "home" && (
-        <Breadcrumb>
+        <Breadcrumb className="breadcrumb">
           <Breadcrumb.Item className="ms-5"><Link to="/">Home</Link></Breadcrumb.Item>
           <Breadcrumb.Item active>{currentlyPath}</Breadcrumb.Item>
         </Breadcrumb>

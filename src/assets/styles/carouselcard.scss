@@ -1,25 +1,34 @@
-.carouselCard{
+.carousel-tile{
 
     font-style: normal;
-    font-weight: 500;
-    font-size: 1.5em;
-    line-height: 40px;
-    letter-spacing: 0.02em;
-    color: #333333;
-    
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 25px;
+    color: #FFFFFF;    
     hr{
         width: 5em;
-        border: 1px solid #000000;
+        border: 1px solid #065BAA;
     }
 }
 
 #carouselCard{
     .carousel-control-prev-icon{
-        border-radius: 1rem;
-        background-color: #D84727;
+        height: 100%;
+        border-radius: .25rem;
+        transition: .25s ease-in-out;
+    }:hover{
+        .carousel-control-prev-icon{
+            background-color: #065BAA;
+        }
     }
+        
     .carousel-control-next-icon{
-        border-radius: 1rem;
-        background-color: #D84727;
+        height: 100%;
+        border-radius: .25rem;
+        transition: .25s ease-in-out;
+    }:hover{
+        .carousel-control-next-icon{
+            background-color: #065BAA;
+        }
     }
 }
