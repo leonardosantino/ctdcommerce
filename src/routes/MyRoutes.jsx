@@ -3,7 +3,7 @@ import About from '../pages/About';
 import Home from '../pages/Home';
 import Produtos from '../pages/Produtos';
 
-function RouteList() {
+function MyRoutes() {
     return (
         <BrowserRouter>
             <Routes>
@@ -17,4 +17,4 @@ function RouteList() {
     )
 }
 
-export default RouteList;
+export default MyRoutes;

@@ -7,8 +7,7 @@ import RecentNews from "../components/RecentNews";
 function Home() {
         return (
                 <>
-                        <Header />
-                        <Carousel />
+                        <Header currentlyPath="home" />
                         <Carousel />
                         <CarouselCard />
                         <RecentNews />

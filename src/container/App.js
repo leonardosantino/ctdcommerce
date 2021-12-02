@@ -1,9 +1,9 @@
-import RouteList from "../routes/RouteList";
+import MyRoutes from "../routes/MyRoutes";
 
 function App() {
   return (
     <>
-      <RouteList/>
+      <MyRoutes/>
     </>
   );
 }
