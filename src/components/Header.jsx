@@ -1,5 +1,5 @@
 import "../assets/styles/header.scss"
-import imgCart  from "../assets/imgs/imgCart.png"
+import imgCart from "../assets/imgs/imgCart.png"
 import imgSearch from "../assets/imgs/imgSearch.png"
 import imgUser from "../assets/imgs/imgUser.png"
 import imgCtd from "../assets/imgs/imgCtd.png"
@@ -22,45 +22,34 @@ function Header() {
           <div className="offcanvas-body">
 
             <ul className="navbar-nav justify-content-center align-items-center flex-grow-1">
-              <li className="nav-item">
+              <li className="nav-item me-lg-3">
                 <a className="nav-link " aria-current="page" href="#about">Watches</a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item ms-lg-3 me-lg-5">
                 <a className="nav-link" href="#learning">Eyewear</a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#portfolio">Accessories</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#portfolio">News</a>
+              <li className="nav-item ms-lg-5">
+                <a className="nav-link" href="#learning">About</a>
               </li>
             </ul>
-
           </div>
         </div>
         <div className="d-flex flex-grow-1 justify-content-around">
           <div>
-          <a class="link-secondary" href="#search" aria-label="Search"><img src={imgSearch} alt="" /></a>
+            <a class="link-secondary" href="#search" aria-label="Search"><img src={imgSearch} alt="" /></a>
           </div>
           <div>
-          <a class="link-secondary" href="#user" aria-label="User"><img src={imgUser} alt="" /></a>
+            <a class="link-secondary" href="#user" aria-label="User"><img src={imgUser} alt="" /></a>
           </div>
           <div>
-          <a className="link-secondary" href="#cart" aria-label="Car"><img src={imgCart} alt="" /></a>
+            <a className="link-secondary" href="#cart" aria-label="Car"><img src={imgCart} alt="" /></a>
           </div>
-          
-          
-          
         </div>
-
-        
         <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
           <span className="navbar-toggler-icon"></span>
         </button>
-
       </div>
     </nav>
   );
-  }
-  
-  export default Header;
+}
+export default Header;

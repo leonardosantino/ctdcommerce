@@ -1,0 +1,25 @@
+.carouselCard{
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5em;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    color: #333333;
+    
+    hr{
+        width: 5em;
+        border: 1px solid #000000;
+    }
+}
+
+#carouselCard{
+    .carousel-control-prev-icon{
+        border-radius: 1rem;
+        background-color: #D84727;
+    }
+    .carousel-control-next-icon{
+        border-radius: 1rem;
+        background-color: #D84727;
+    }
+}
