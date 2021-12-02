@@ -20,10 +20,7 @@ function About() {
       <div className="mt-5 mb-5 me-5">
         <Persona />
       </div>
-
-
     </>
   );
 }
-
 export default About;

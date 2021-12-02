@@ -1,0 +1,20 @@
+.footer {
+    height: 700px;
+    background: #d84727;
+
+    .card-cartao {
+        height: 273px;
+        background: #da5e42;
+
+        @media (min-width: 768px) {
+            .cartao {
+              flex-wrap: wrap;  
+            }
+        }
+
+        img {
+            max-width: 10em;
+            max-height: 10em;
+        }
+    }
+}
