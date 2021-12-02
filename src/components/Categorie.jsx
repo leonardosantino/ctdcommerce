@@ -1,6 +1,6 @@
 import "../assets/styles/categorie.scss"
 import Card from "../components/Card"
-import imgClock1 from "../assets/imgs/watches/imgClock1.png"
+import imgGame1 from "../assets/imgs/games/imgGame1.png"
 
 
 function Categorie() {
@@ -57,16 +57,7 @@ function Categorie() {
         </div>
       </div>
       <div className="col d-flex flex-wrap gap-3">
-        <Card img={imgClock1} />
-        <Card img={imgClock1} />
-        <Card img={imgClock1} />
-        <Card img={imgClock1} />
-        <Card img={imgClock1} />
-        <Card img={imgClock1} />
-        <Card img={imgClock1} />
-        <Card img={imgClock1} />
-        <Card img={imgClock1} />
-        <Card img={imgClock1} />
+        <Card img={imgGame1} />
       </div>
       </div>
     </>

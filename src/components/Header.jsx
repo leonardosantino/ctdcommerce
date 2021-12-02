@@ -13,7 +13,7 @@ function Header({ currentlyPath }) {
 
         <div className="container-fluid px-5">
 
-          <Link to="/" className="navbar-brand" href="#logo"><img src={imgCtd} alt="" /></Link>
+          <Link to="/" className="navbar-brand"><img src={imgCtd} alt="" /></Link>
 
           <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
 
@@ -25,10 +25,10 @@ function Header({ currentlyPath }) {
 
               <ul className="navbar-nav justify-content-center align-items-center flex-grow-1">
                 <li className="nav-item me-lg-3">
-                  <Link to="/woman" className="nav-link">Woman</Link>
+                  <Link to="/PS5" className="nav-link">Playstation</Link>
                 </li>
                 <li className="nav-item ms-lg-3 me-lg-5">
-                  <Link to="/man" className="nav-link">Man</Link>
+                  <Link to="/xbox" className="nav-link">Xbox</Link>
                 </li>
                 <li className="nav-item ms-lg-5">
                   <Link to="/about" className="nav-link">About</Link>

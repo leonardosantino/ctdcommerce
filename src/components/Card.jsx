@@ -1,5 +1,4 @@
 import "../assets/styles/card.scss"
-import imgAddCart from "../assets/imgs/imgAddCart.png"
 
 function Card({img}) {
     return (
@@ -9,17 +8,11 @@ function Card({img}) {
                 <img src={img} class="card-img-top" alt="..." />
 
                 <div class="card-body">
-
-                    <div class="card-title">Singo Maple</div>
-
-                    <div class="card-text">20% Off</div>
-
-                    <div class="precoDE">R$ 1.264.00</div>
-
-                    <div class="precoPOR">R$ 500.00</div>
-
-                    <a href="#card" class="btn btn-primary"><img src={imgAddCart} alt="" /> Add to cart</a>
-
+                    <div class="card-title">Ghost Of Tsushima: Leg...</div>
+                    <div className="card-text">SIE / Sucker Punch</div>
+                    <div className="card-cat my-2"><span className="consol">PS4</span></div>
+                    <div className="card-btn my-2"><a href="#card" class="btn btn-primary">R$ 159.00</a></div>
+                    
                 </div>
             </div>
         </>

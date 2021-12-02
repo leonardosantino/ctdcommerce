@@ -9,8 +9,8 @@ function MyRoutes() {
             <Routes>
 
                 <Route path="/" element={<Home />} />
-                <Route path="/woman" element={<Woman />} />
-                <Route path="/man" element={<Woman />} />
+                <Route path="/ps5" element={<Woman />} />
+                <Route path="/xbox" element={<Woman />} />
                 <Route path="/about" element={<About />} />
 
             </Routes>
