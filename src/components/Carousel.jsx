@@ -1,10 +1,10 @@
-import imgCarousel1 from "../assets/imgs/imgCarousel1.png"
-import imgCarousel2 from "../assets/imgs/imgCarousel2.png"
+import imgCarousel1 from "../assets/imgs/imgHomemAranha.png"
+import imgCarousel2 from "../assets/imgs/imgAssassinsCreed.png"
 import "../assets/styles/carousel.scss"
 
 function Carousel() {
   return (
-    <> <div className="carouselsection  ps-5">
+    <> <div className="carouselsection">
       <div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
