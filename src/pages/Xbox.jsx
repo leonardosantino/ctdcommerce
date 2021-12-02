@@ -1,13 +1,13 @@
 import Header from "../components/Header";
 import Categorie from "../components/Categorie"
 
-function Man() {
+function Xbox() {
     return (
       <>
-        <Header currentlyPath="man"/>
+        <Header currentlyPath="xbox"/>
         <Categorie/>
       </>
     );
   }
   
-  export default Man;
+  export default Xbox;

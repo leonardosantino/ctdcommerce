@@ -21,7 +21,7 @@ function Header({ currentlyPath }) {
 
               <ul className="navbar-nav justify-content-center align-items-center flex-grow-1">
                 <li className="nav-item me-lg-3">
-                  <Link to="/PS5" className="nav-link">Playstation</Link>
+                  <Link to="/playstation" className="nav-link">Playstation</Link>
                 </li>
                 <li className="nav-item ms-lg-3 me-lg-5">
                   <Link to="/xbox" className="nav-link">Xbox</Link>
@@ -40,7 +40,7 @@ function Header({ currentlyPath }) {
               <a className="link-secondary text-decoration-none" href="#user" aria-label="User"><i className="bi bi-person-circle"></i>&nbsp; SIGN IN</a>
             </div>
             <div>
-              <a className="link-secondary" href="#cart" aria-label="Car"><i className="bi bi-bag"></i></a>
+              <Link to="/cart" className="link-secondary text-decoration-none"><i className="bi bi-bag"></i></Link>
             </div>
           </div>
           <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
