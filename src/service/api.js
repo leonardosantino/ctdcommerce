@@ -1,7 +1,10 @@
-import axios from "axios";
+//import axios from "axios";
+// const api = axios.create({
+//     baseURL: ''
+// });
 
-const api = axios.create({
-    baseURL: ''
-});
+const Api = () => {
+    return fetch('/gamesBack.json').then(res => res.json())
+}
 
-export default api;
+export default Api;

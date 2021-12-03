@@ -1,7 +1,5 @@
 import "../assets/styles/categorie.scss"
 import Card from "../components/Card"
-import imgGame1 from "../assets/imgs/games/imgGame1.png"
-
 
 function Categorie() {
   return (
@@ -57,7 +55,7 @@ function Categorie() {
         </div>
       </div>
       <div className="col d-flex flex-wrap gap-3">
-        <Card img={imgGame1} />
+        <Card/>
       </div>
       </div>
     </>
