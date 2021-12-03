@@ -20,7 +20,6 @@ function Cart() {
 
           <div className="col">
             <Checkout/>
-
           </div>
           
         </div>

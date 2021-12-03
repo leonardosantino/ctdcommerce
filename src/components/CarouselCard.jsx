@@ -1,6 +1,8 @@
 import "../assets/styles/carouselcard.scss"
 import Card from "./Card";
 
+const imgCard1 = "images/games/imgGame1.png"
+
 function CarouselCard() {
   return (
     <>
@@ -14,12 +16,12 @@ function CarouselCard() {
           <div className="carousel-inner">
             <div className="carousel-item active">
               <div className="d-flex justify-content-center">
-                <Card de={1} ate={3}/>
+                <Card img={imgCard1}/>
               </div>
             </div>
             <div className="carousel-item">
               <div className="d-flex justify-content-center">
-                <Card de={3} ate={5} />
+                <Card img={imgCard1} />
               </div>
             </div>
           </div>

@@ -1,0 +1,23 @@
+[
+    {
+        "nome": "Far cry",
+        "valor": 209.00,
+        "descricao": "Ubisoft",
+        "console": "Playstation",
+        "imagem": "images/games/imgGame1.png"
+    },
+    {
+        "nome": "The last of us",
+        "valor": 159.00,
+        "descricao": "Naughty dog",
+        "console": "Playstation",
+        "imagem": "images/games/imgGame2.png"
+    },
+    {
+        "nome": "Resident evil",
+        "valor": 149.00,
+        "descricao": "Capcom",
+        "console": "Playstation",
+        "imagem": "images/games/imgGame3.png"
+    }
+]
