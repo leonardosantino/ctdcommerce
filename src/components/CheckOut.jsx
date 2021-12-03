@@ -1,23 +1,28 @@
-import CardCart from "../components/CardCart";
 import "../assets/styles/checkout.scss"
 
-function CheckOut() {
-    return (
-        <>
-            <div className="container-fluid">
-                <div className="checkout">
-                    <div className="row justify-content-center checkout-cards">
-                        <CardCart />
-                        <CardCart />
-                    </div>
-                    <div className="row">
-                        <div className="row justify-content-end p-3 checkout-total">Valor Total: R$ 1.500,00</div>
-                        <div className="row justify-content-center p-3 checkout-btn"><button className="btn btn-primary">Checkout</button></div>
-                    </div>
-                </div>
-            </div>
-        </>
-    );
+function Checkout() {
+  return (
+    <>
+      <div className="container-fluid px-5">
+        <div className="col-auto cart-checkout">
+          <div className="row px-3">
+            <div className="col checkout-subtotal">Subtotal</div>
+            <div className="col d-flex justify-content-center checkout-subtotal-valor">R$ 1.560,00</div>
+          </div>
+          <div className="row p-3">
+            <div className="col checkout-total" >Order total</div>
+            <div className="col d-flex justify-content-center checkout-total-valor">R$ 1.560,00</div>
+          </div>
+          <div className="row mx-3 p-3 d-flex justify-content-center checkout-text">
+            Check Out with Multiple Addresses
+          </div>
+          <div className="row checkout-button">
+            <button className="btn btn-primary">Proceed to checkout</button>
+          </div>
+        </div>
+      </div>
+    </>
+  );
 }
 
-export default CheckOut;
+export default Checkout;

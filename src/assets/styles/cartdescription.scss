@@ -1,0 +1,21 @@
+.cart-description{
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #828282;
+    box-shadow: 0px 1px ;
+
+    .cart-description-product{
+        flex-grow: .7;
+    }
+    .cart-price{
+        flex-grow: .35;
+    }
+    .cart-quantity{
+        flex-grow: .35;
+    }
+}

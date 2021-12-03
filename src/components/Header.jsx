@@ -1,6 +1,5 @@
 import "../assets/styles/header.scss"
-import { Link, NavLink } from 'react-router-dom'
-import imgCtd from "../assets/imgs/logotipo.png";
+import { NavLink } from 'react-router-dom'
 import Breadcrumb from 'react-bootstrap/Breadcrumb'
 
 function Header({ currentlyPath }) {
@@ -10,7 +9,7 @@ function Header({ currentlyPath }) {
 
         <div className="container-fluid">
 
-          <NavLink to="/" className="navbar-brand p-0 m-0"><img src={imgCtd} alt="logotipo" className="img-fluid logotipo"/></NavLink>
+          <NavLink to="/" className="navbar-brand">Sem Logo</NavLink>
           <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
 
             <div className="offcanvas-header">
@@ -24,10 +23,10 @@ function Header({ currentlyPath }) {
                   <NavLink to="/playstation" className="nav-link">Playstation</NavLink>
                 </li>
                 <li className="nav-item ms-lg-3 me-lg-5">
-                  <Link to="/xbox" className="nav-link">Xbox</Link>
+                  <NavLink to="/xbox" className="nav-link">Xbox</NavLink>
                 </li>
                 <li className="nav-item ms-lg-5">
-                  <Link to="/about" className="nav-link">About</Link>
+                  <NavLink to="/about" className="nav-link">About</NavLink>
                 </li>
               </ul>
             </div>
@@ -40,7 +39,7 @@ function Header({ currentlyPath }) {
               <a className="link-secondary text-decoration-none" href="#user" aria-label="User"><i className="bi bi-person-circle"></i>&nbsp; SIGN IN</a>
             </div>
             <div>
-              <Link to="/cart" className="link-secondary text-decoration-none"><i className="bi bi-bag"></i></Link>
+              <NavLink to="/cart" className="link-secondary text-decoration-none"><i className="bi bi-bag"></i></NavLink>
             </div>
           </div>
           <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -48,12 +47,12 @@ function Header({ currentlyPath }) {
           </button>
         </div>
       </nav>
-      {currentlyPath !== "home" && (
+      {/* {currentlyPath !== "home" && (
         <Breadcrumb className="breadcrumb">
-          <Breadcrumb.Item className="ms-5"><Link to="/">Home</Link></Breadcrumb.Item>
+          <Breadcrumb.Item className="ms-1"><NavLink to="/">Home</NavLink></Breadcrumb.Item>
           <Breadcrumb.Item active>{currentlyPath}</Breadcrumb.Item>
         </Breadcrumb>
-      )}
+      )} */}
     </>
   );
 }
