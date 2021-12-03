@@ -1,6 +1,6 @@
 import "../assets/styles/header.scss"
 import { NavLink } from 'react-router-dom'
-import Breadcrumb from 'react-bootstrap/Breadcrumb'
+// import Breadcrumb from 'react-bootstrap/Breadcrumb'
 
 function Header({ currentlyPath }) {
   return (

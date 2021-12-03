@@ -1,0 +1,306 @@
+{
+    "XBOX": [
+        {
+            "categoria": {
+                "id": 0,
+                "nome": "luta"
+            },
+            "descricao": "Cyberpunk 2077 é uma história de ação e aventura de mundo aberto ambientada em Night City, uma megalópole obcecada por poder, glamour e biomodificações.",
+            "imagem": "/images/games/imgGame2.png",
+            "nome": "Cyberpunk 2077",
+            "valor": 249.50
+        },
+        {
+            "categoria": {
+                "id": 1,
+                "nome": "ação/aventura"
+            },
+            "descricao": "Encare os contratos mais importantes da carreira do Agente 47 a 60 quadros por segundo e na resolução 4K",
+            "imagem": "/images/games/imgGame3.png",
+            "nome": "HITMAN 3 - Standard Edition",
+            "valor": 319.90
+        },
+        {
+            "categoria": {
+                "id": 2,
+                "nome": "esporte"
+            },
+            "descricao": "Vença como um no EA SPORTS FIFA 21 com novas maneiras de cooperar nas ruas e no estádio para conquistar vitórias ainda maiores juntos.",
+            "imagem": "/images/games/imgGame6.png",
+            "nome": "FIFA 21 Edição dos Campeões",
+            "valor": 398.90
+        },
+        {
+            "categoria": {
+                "id": 1,
+                "nome": "ação/aventura"
+            },
+            "descricao": "Constrói uma resistência com praticamente qualquer pessoa que encontras na rua, à medida que fazes hacking, te infiltras e lutas para recuperar a Londres de um futuro próximo que está à beira da ruína. Bem-vindo à Resistência.",
+            "imagem": "/images/games/imgGame7.png",
+            "nome": "Watch Dogs: Legion",
+            "valor": 279.90
+        },
+        {
+            "categoria": {
+                "id": 1,
+                "nome": "ação/aventura"
+            },
+            "descricao": "Na dispersa cidade ‘cyberpunk’ de Nivalis, a sua primeira noite como motorista de entregas para a Cloudpunk fará com que conheça e interaja com um elenco diverso de seres humanos, IA e androides, cada um com a sua própria história para contar",
+            "imagem": "/images/games/imgGame8.png",
+            "nome": "Cloudpunk",
+            "valor": 124.50
+        },
+        {
+            "categoria": {
+                "id": 1,
+                "nome": "ação/aventura"
+            },
+            "descricao": "O clássico jogo de tiro em primeira pessoa da Crytek está de volta com jogabilidade repleta de ação, mundo em sandbox e emocionantes batalhas épicas que você tanto adorou da primeira vez – agora com ray tracing, gráficos remasterizados otimizados para uma nova geração de hardware.",
+            "imagem": "/images/games/imgGame9.png",
+            "nome": "Crysis Remastered",
+            "valor": 159.90
+        },
+        {
+            "categoria": {
+                "id": 1,
+                "nome": "ação/aventura"
+            },
+            "descricao": "Bem-vindo a Yara, um paraíso tropical que parou no tempo. Antón Castillo, o ditador de Yara, deseja resgatar a glória do seu país a qualquer custo, junto com seu filho, Diego, que é tão sanguinário quanto o pai. O governo opressor de Antón e Diego provocou uma revolução. Junte-se à revolução como Dani Rojas, um Yaraniano, e torne-se um guerrilheiro para libertar sua nação.",
+            "imagem": "/images/games/imgGame10.png",
+            "nome": "Far Cry 6",
+            "valor": 279.90
+        },
+        {
+            "categoria": {
+                "id": 0,
+                "nome": "luta"
+            },
+            "descricao": "This is the Zodiac Speaking é um thriller psicológico de um jogador baseado em fatos reais, feito com base na história de Zodiac, um dos mais famosos assassinos em série jamais capturados. Ele mistura visuais vintage da Califórnia dos anos 70 e uma trilha sonora cinematográfica épica original com elementos de jogabilidade que incluem terror clássico, investigação, mecânica furtiva e vários finais a se descobrir.",
+            "imagem": "/images/games/imgGame11.png",
+            "nome": "This is the Zodiac Speaking",
+            "valor": 69.90
+        },
+        {
+            "categoria": {
+                "id": 2,
+                "nome": "esporte"
+            },
+            "descricao": "O NBA 2K21 é o novo jogo da renomada franquia de sucesso NBA 2K, que traz uma experiência esportiva.Com diversas melhorias gráficas e de jogabilidade, funcionalidades online competitivas e da comunidade, e modos de jogos variados e aprofundados, o NBA 2K21 oferece uma imersão sem igual no mundo e na cultura do basquete da NBA.",
+            "imagem": "/images/games/imgGame12.png",
+            "nome": "NBA 2K21",
+            "valor": 249.90
+        },
+        {
+            "categoria": {
+                "id": 1,
+                "nome": "ação/aventura"
+            },
+            "descricao": "DEVIL MAY CRY ESTÁ DE VOLTA, BABY!! O lendário estiloso jogo de ação está melhor do que nunca na versão definitiva deste premiado sucesso.",
+            "imagem": "/images/games/imgGame13.png",
+            "nome": "Devil May Cry 5 Special Edition",
+            "valor": 164.90
+        },
+        {
+            "categoria": {
+                "id": 0,
+                "nome": "luta"
+            },
+            "descricao": "Parte numa missão épica em busca de glória na pele de Eivor, uma lenda viking. Explora Inglaterra durante a Idade das Trevas e ataca os teus inimigos, cria a tua povoação e aumenta o teu poder político para tentares conquistar um lugar entre os deuses em Valhalla.",
+            "imagem": "/images/games/imgGame14.png",
+            "nome": "Assassin's Creed Valhalla",
+            "valor": 111.98
+        },
+        {
+            "categoria": {
+                "id": 2,
+                "nome": "esporte"
+            },
+            "descricao": "Sinta a emoção da perseguição e a adrenalina da fuga. Sinta a sensação extrema de velocidade, tanto como fora da lei quanto como policial, nos carros mais potentes do mundo. Supere a perseguição ou enfrente infratores com o armamento tático à sua disposição em uma experiência competitiva de corrida cheia de energia.",
+            "imagem": "/images/games/imgGame15.png",
+            "nome": "Need for Speed Hot Pursuit Remastered",
+            "valor": 198.90
+        },
+        {
+            "categoria": {
+                "id": 1,
+                "nome": "ação/aventura"
+            },
+            "descricao": "Quatro estudantes e um professor ficam presos na cidade abandonada de Little Hope. Encurralados por um nevoeiro impenetrável, eles tentam fugir desesperadamente enquanto têm visões horripilantes do passado. Eles precisam descobrir o que move essas aparições antes que as forças malignas em ação levem suas almas para o inferno.",
+            "imagem": "/images/games/imgGame16.png",
+            "nome": "The Dark Pictures Anthology: Little Hope",
+            "valor": 149.50
+        },
+        {
+            "categoria": {
+                "id": 1,
+                "nome": "ação/aventura"
+            },
+            "descricao": "Gerações de jogadores se digladiaram com as hordas demoníacas de Diablo, e agora chegou a sua vez de mergulhar no legado deste RPG de ação. Diablo III: Eternal Collection inclui Diablo III, a expansão Reaper of Souls e o pacote Ascensão do Necromante – tudo reunido em um volume definitivo. Prepare-se, herói mortal: os portões do inferno estão se abrindo.",
+            "imagem": "/images/games/imgGame21.png",
+            "nome": "Diablo III: Eternal Collection",
+            "valor": 82.17
+        },
+        {
+            "categoria": {
+                "id": 1,
+                "nome": "ação/aventura"
+            },
+            "descricao": "Mortal Shell é um complexo RPG de ação implacável que testa a tua sanidade e resiliência num mundo despedaçado. Enquanto os restos da humanidade definham e apodrecem, inimigos zelosos deterioram-se nas ruínas.",
+            "imagem": "/images/games/imgGame22.png",
+            "nome": "Mortal Shell",
+            "valor": 120.00
+        }
+    ],
+    "PS": [
+        {
+            "categoria": {
+                "id": 1,
+                "nome": "ação/aventura"
+            },
+            "descricao": "STRANGER THINGS é o novíssimo Capítulo de Dead by Daylight, trazendo ao jogo um novo Assassino e mais dois Sobreviventes. Quando a Entidade se estabelece em Hawkins — uma cidadezinha em Indiana, no meio-oeste dos Estados Unidos —, Stranger Things, a aclamada Série Oficial Netflix.",
+            "imagem": "/images/games/imgGame17.png",
+            "nome": "Stranger Things",
+            "valor": 100.00
+        },
+        {
+            "categoria": {
+                "id": 1,
+                "nome": "ação/aventura"
+            },
+            "descricao": "Encare desafios emocionantes e imprevisíveis enquanto explora terras distintas e feitas com todo o requinte, tudo com controles envolventes e que permitem que você se expresse.",
+            "imagem": "/images/games/imgGame18.png",
+            "nome": "Sackboy: Uma Grande Aventura",
+            "valor": 299.90
+        },
+        {
+            "categoria": {
+                "id": 0,
+                "nome": "luta"
+            },
+            "descricao": "Sam Bridges precisa desbravar um mundo completamente transformado pela Death Stranding. Carregando os vestígios desconectados do nosso futuro em suas mãos, ele embarca em uma jornada para reconectar o mundo despedaçado passo a passo.",
+            "imagem": "/images/games/imgGame19.png",
+            "nome": "DEATH STRANDING Digital Deluxe Edition",
+            "valor": 249.50
+        },
+        {
+            "categoria": {
+                "id": 1,
+                "nome": "ação/aventura"
+            },
+            "descricao": "Days Gone é um jogo de ação e aventura em mundo aberto que se passa em um ambiente adverso dois anos após uma pandemia mundial devastadora. Jogue com Deacon St. John, um andarilho e caçador de recompensas que segue um caminho tortuoso, lutando para sobreviver ao mesmo tempo em que busca uma razão para viver.",
+            "imagem": "/images/games/imgGame20.png",
+            "nome": "Days Gone",
+            "valor": 199.50
+        },
+        {
+            "categoria": {
+                "id": 0,
+                "nome": "luta"
+            },
+            "descricao": "Os exércitos do Inferno invadiram a Terra. Torne-se o Slayer em uma campanha épica para um jogador e derrote demônios entre dimensões para impedir a derradeira destruição da humanidade. A única coisa que eles temem... é você.",
+            "imagem": "/images/games/imgGame23.png",
+            "nome": "DOOM Eternal",
+            "valor": 103.00
+        },
+        {
+            "categoria": {
+                "id": 1,
+                "nome": "ação/aventura"
+            },
+            "descricao": "O jogo mais premiado de 2015! Torne-se um mercenário caçador de monstros e embarque em uma épica jornada para encontrar a criança da profecia, uma arma viva capaz de incríveis destruições.",
+            "imagem": "/images/games/imgGame24.png",
+            "nome": "The Witcher 3: Wild Hunt – Complete Edition",
+            "valor": 207.90
+        },
+        {
+            "categoria": {
+                "id": 0,
+                "nome": "luta"
+            },
+            "descricao": "Equipe-se e mergulhe de cabeça em Rogue Company, o jogo de tiro de ação tático em terceira pessoa que coloca o destino do mundo em suas mãos. Derrote a equipe inimiga em modos de jogo baseados em objetivo e ação, em locais exóticos, trocas de tiros empolgantes e explosões, muitas explosões.",
+            "imagem": "/images/games/imgGame25.png",
+            "nome": "Rogue Company",
+            "valor": 50.00
+        },
+        {
+            "categoria": {
+                "id": 0,
+                "nome": "luta"
+            },
+            "descricao": "Entre no Cubiverso para enfrentar monstros e encontrar armas especiais. Monte em criaturas e parta para a batalha. Participe do esforço comunitário de defesa contra os Cubos. Agora, a sobrevivência da Ilha está em suas mãos.",
+            "imagem": "/images/games/imgGame26.png",
+            "nome": "Fortnite",
+            "valor": 50.00
+        },
+        {
+            "categoria": {
+                "id": 1,
+                "nome": "ação/aventura"
+            },
+            "descricao": "O vasto continente 'Teyvat', onde incontáveis criaturas se reproduziram e se reuniram, contém todos os fenômenos do céu e da terra. Este é um mundo onde os sete deuses governam e se encontram..Sob o céu desconhecido, vocês são um par de gêmeos viajantes, vindos de um outro mundo. Separados por deuses estranhos, você foi selado e adormeceu.",
+            "imagem": "/images/games/imgGame27.png",
+            "nome": "Genshin Impact",
+            "valor": 50.00
+        },
+        {
+            "categoria": {
+                "id": 2,
+                "nome": "esporte"
+            },
+            "descricao": "Baixe e compita no jogo estilo arcade híbrido de futebol e caos automobilístico! Desbloqueie itens no Rocket Pass, suba nos rankings competitivos, participe de torneios, complete desafios, tire vantagem da progressão multiplataforma e muito mais!",
+            "imagem": "/images/games/imgGame28.png",
+            "nome": "Rocket League",
+            "valor": 50.00
+        },
+        {
+            "categoria": {
+                "id": 0,
+                "nome": "luta"
+            },
+            "descricao": "Pilhe as recompensas: Encontre caixas de suprimentos e conclua contratos para construir seu arsenal e obter uma vantagem tática. Batalhe em dois modos épicos: Experimente um novo 'Battle Royale' ou jogue 'Saque' em uma corrida para ganhar o máximo de dinheiro na partida.",
+            "imagem": "/images/games/imgGame29.png",
+            "nome": "Call of Duty: Warzone",
+            "valor": 50.00
+        },
+        {
+            "categoria": {
+                "id": 0,
+                "nome": "luta"
+            },
+            "descricao": "Nesse jogo atmosférico em primeira pessoa, desenvolvido exclusivamente para a realidade virtual, o destino da humanidade depende de você – o último humano vivo.",
+            "imagem": "/images/games/imgGame30.png",
+            "nome": "Apex Legends",
+            "valor": 29.00
+        },
+        {
+            "categoria": {
+                "id": 0,
+                "nome": "luta"
+            },
+            "descricao": "Ghost of Tsushima: Legends inspirada na mitologia japonesa. Escolha entre quatro classes – Samurai, Caçador, Ronin ou Assassino – e jogue com amigos ou via organização de partidas em missões de história para dois jogadores, missões de sobrevivência para quatro jogadores ou no novo Modo Rivais.",
+            "imagem": "/images/games/imgGame1.png",
+            "nome": "Ghost of Tsushima: Legends",
+            "valor": 104.90
+        },
+        {
+            "categoria": {
+                "id": 2,
+                "nome": "esporte"
+            },
+            "descricao": "Domine o fenômeno global Destruction AllStars – o 'Esporte Espetacular' do horário nobre para motoristas perigosos! Domine a arte de combate intenso baseado em veículos através do tempo, táticas e habilidades para causar diversos danos colossais, destruição e devastação em arenas vibrantes em todo o mundo.",
+            "imagem": "/images/games/imgGame4.png",
+            "nome": "Destruction AllStars",
+            "valor": 99.50
+        },
+        {
+            "categoria": {
+                "id": 1,
+                "nome": "ação/aventura"
+            },
+            "descricao": "Aperion está à beira da perdição. Você é o último dos cavaleiros Valorians, uma ordem de mestres divinos do combate corpo a corpo que usam armaduras lendárias chamadas Valorplates. Ascenda em Godfall, o primeiro RPG de ação looter-slasher com foco em combate corpo a corpo.",
+            "imagem": "/images/games/imgGame5.png",
+            "nome": "Godfall Pre-Order Contents",
+            "valor": 53.90
+        }
+    ]
+}

@@ -2,7 +2,7 @@ import "../assets/styles/card.scss"
 import api from './../service/api';
 import { useState, useEffect } from 'react'
 
-function Card({ de, ate }) {
+function Card() {
     const [resultado, setResultado] = useState([]);
     useEffect(() => {
         api().then((res) => setResultado(Object.entries(res)))
@@ -12,8 +12,8 @@ function Card({ de, ate }) {
         <>
             {resultado.map(([marca, items]) => {
                 return (<>
-                    <div key={marca} className="row p-2">
-                        {items.slice(de,ate).map(({ imagem, nome, descricao, valor }) => {
+                    <div key={marca} className="row g-4">
+                        {items.map(({ imagem, nome, descricao, valor }) => {
                             return <>
                                 <div key={nome} className="col">
                                     <div className="card h-100">

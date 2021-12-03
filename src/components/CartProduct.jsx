@@ -1,5 +1,5 @@
 import "../assets/styles/cartproduct.scss"
-import imgGame20 from "../assets/imgs/games/imgGame20.png"
+const imgGame20 = "images/games/imgGame20.png"
 
 function CartProduct() {
   return (
