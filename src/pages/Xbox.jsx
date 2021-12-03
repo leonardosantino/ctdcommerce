@@ -2,27 +2,33 @@ import Header from "../components/Header";
 import { useState, useEffect } from "react";
 import Card from "../components/Card";
 import apiCard from "../service/apiCard";
+import Categorie from "../components/Categorie";
 
 function Xbox() {
-  const img = "images/games/imgGame20.png"
 
-
-  const [data, setData] = useState({});
+  const [data, setData] = useState([]);
 
   useEffect(() => {
 
     apiCard().then((response) => {
       setData(response.data)
+
     }).catch((error) => {
       console.error(error)
     })
-    
-  }, [])
+
+  })
 
   return (
     <>
       <Header currentlyPath="xbox" />
-      <Card img={img} title={data.nome} />
+      <Categorie>
+        {
+          data.map((data, index) => {
+            return <div key={index}><Card img={data.imagem} title={data.nome} description={data.descricao} console={data.console} valor={data.valor} /></div> 
+          })
+        }
+      </Categorie>
     </>
   );
 }

@@ -7,7 +7,7 @@ const api = axios.create({
 
 async function apiCard() {
 
-    return await api.get("/produto/1")
+    return await api.get(`/produto`)
 }
 
 export default apiCard;
