@@ -1,5 +1,5 @@
 import "../assets/styles/carouselcard.scss"
-//import Card from "./Card";
+import Card from "./Card";
 
 function CarouselCard() {
   return (
@@ -13,14 +13,13 @@ function CarouselCard() {
         <div id="carouselCard" className="carousel slide" data-bs-ride="carouselCard">
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <div className="d-flex justify-content-evenly">
-
-                {/* <Card /> */}
+              <div className="d-flex justify-content-center">
+                <Card de={1} ate={3}/>
               </div>
             </div>
             <div className="carousel-item">
-              <div className="d-flex justify-content-evenly">
-                {/* <Card  /> */}
+              <div className="d-flex justify-content-center">
+                <Card de={3} ate={5} />
               </div>
             </div>
           </div>

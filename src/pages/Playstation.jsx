@@ -1,15 +1,13 @@
 import Header from "../components/Header";
 import Categorie from "../components/Categorie"
 
-function Woman() {
+function Plastation() {
     return (
       <>
-        <Header currentlyPath="woman"/>
+        <Header currentlyPath="playstation"/>
         <Categorie/>
-
-        
       </>
     );
   }
   
-  export default Woman;
+  export default Plastation;

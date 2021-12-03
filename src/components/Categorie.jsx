@@ -1,5 +1,5 @@
 import "../assets/styles/categorie.scss"
-import Card from "../components/Card"
+import Cards from "../components/AllCards"
 
 function Categorie() {
   return (
@@ -55,7 +55,7 @@ function Categorie() {
         </div>
       </div>
       <div className="col d-flex flex-wrap gap-3">
-        <Card/>
+        <Cards/>
       </div>
       </div>
     </>
