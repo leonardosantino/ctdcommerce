@@ -1,0 +1,18 @@
+//Gradiente
+#gradient {
+    background-image: linear-gradient(
+        #da8751 20%,
+        #d73b25 20%,
+        #d73b25 40%,
+        #c71b25 40%,
+        #c71b25 60%,
+        #961a39 60%,
+        #961a39 80%,
+        #601035 80%
+    );
+    margin: 0 auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 100%;
+    height: 10rem;
+}
