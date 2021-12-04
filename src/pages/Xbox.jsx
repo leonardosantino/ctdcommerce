@@ -16,8 +16,8 @@ function Xbox() {
     }).catch((error) => {
       console.error(error)
     })
-
-  })
+    return
+  },[])
 
   return (
     <>

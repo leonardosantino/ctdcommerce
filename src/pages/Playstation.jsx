@@ -1,5 +1,5 @@
 import Header from "../components/Header";
-import Categorie from "../components/Categorie"
+import Categorie from "../components/Categorie";
 
 function Plastation() {
     return (
@@ -9,5 +9,4 @@ function Plastation() {
       </>
     );
   }
-  
   export default Plastation;

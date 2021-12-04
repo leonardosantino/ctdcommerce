@@ -21,7 +21,7 @@ function CartProduct() {
           </div>
 
           <div className="col d-flex align-items-center cart-quantity">
-            <input type="number" name="cart-quantity" id="cart-quantity" min="1" value="2" />
+            <input type="number" name="cart-quantity" id="cart-quantity" min="1" defaultValue="2" />
           </div>
 
           <div className="col d-flex align-items-center cart-total">
@@ -29,7 +29,7 @@ function CartProduct() {
           </div>
 
           <div className="col d-flex align-items-center justify-content-around">
-            <i class="bi bi-heart btn"></i><i class="bi bi-pencil-square btn"></i> <i class="bi bi-x-square btn"></i>
+            <i className="bi bi-heart btn"></i><i className="bi bi-pencil-square btn"></i> <i className="bi bi-x-square btn"></i>
           </div>
 
         </div>
