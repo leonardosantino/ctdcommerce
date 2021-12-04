@@ -11,8 +11,8 @@ const imgCard12 = "images/games/imgGame12.png"
 function CarouselCard() {
   return (
     <>
-      <div className="carousel-tile px-5">
-        New products
+      <div className="carousel-tile px-5 my-5">
+        New releases
         <hr />
       </div>
 
