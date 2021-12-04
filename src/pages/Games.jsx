@@ -1,11 +1,10 @@
 import Header from "../components/Header";
-import { useState, useEffect } from "react";
-import Card from "../components/Card";
-import apiCard from "../service/apiCard";
 import Categorie from "../components/Categorie";
+import apiCard from "../service/apiCard";
+import Card from "../components/Card";
+import { useEffect, useState } from "react";
 
-function Xbox() {
-
+function Games() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
@@ -30,7 +29,5 @@ function Xbox() {
         }
       </Categorie>
     </>
-  );
-}
-
-export default Xbox;
+  );  }
+  export default Games;

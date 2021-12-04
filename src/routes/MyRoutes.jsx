@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import About from '../pages/About';
 import Home from '../pages/Home';
 import Xbox from "../pages/Xbox"
-import Plastation from '../pages/Playstation';
+import Games from '../pages/Games';
 import Cart from '../pages/Cart';
 
 function MyRoutes() {
@@ -10,7 +10,7 @@ function MyRoutes() {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/playstation" element={<Plastation />} />
+                <Route path="/games" element={<Games />} />
                 <Route path="/xbox" element={<Xbox />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/cart" element={<Cart />} />
