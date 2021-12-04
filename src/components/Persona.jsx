@@ -16,7 +16,7 @@ function Persona({ img, nome, sobre, contato, email }) {
                     <div className="col-md-7">
                         <h2>{nome}</h2>
                         <p>{sobre}</p>
-                        <p>Entusiasta da tecnologia. Conhecimentos em HTML5, CSS3, SASS, Boostrap, JavaScript, MySQL, Java, Spring Boot, MongoDb.</p>
+                        <p>Entusiasta da tecnologia com conhecimento em ReactJS, Spring Boot, MySQL, MongoDb, Docker, etc.</p>
                     </div>
                 </div>
                 <div className="row">
