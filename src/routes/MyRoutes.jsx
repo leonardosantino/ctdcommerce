@@ -4,6 +4,7 @@ import Home from '../pages/Home';
 import Xbox from "../pages/Xbox"
 import Games from '../pages/Games';
 import Cart from '../pages/Cart';
+import DescriptionProduct from '../pages/DescriptionProduct';
 
 function MyRoutes() {
     return (
@@ -14,6 +15,7 @@ function MyRoutes() {
                 <Route path="/xbox" element={<Xbox />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/cart" element={<Cart />} />
+                <Route path="/descriptionproduct" element={<DescriptionProduct />} />
             </Routes>
         </BrowserRouter>
     )

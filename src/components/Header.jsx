@@ -33,7 +33,7 @@ function Header() {
           </div>
           <div className="d-flex flex-grow-1 justify-content-around">
             <div>
-              <a className="link-secondary text-decoration-none" href="#search" aria-label="Search"><i className="bi bi-search"></i>&nbsp; SEARCH</a>
+              <NavLink to="/descriptionproduct" className="link-secondary text-decoration-none" href="#search" aria-label="Search"><i className="bi bi-search"></i>&nbsp; SEARCH</NavLink>
             </div>
             <div>
               <a className="link-secondary text-decoration-none" href="#user" aria-label="User"><i className="bi bi-person-circle"></i>&nbsp; SIGN IN</a>
