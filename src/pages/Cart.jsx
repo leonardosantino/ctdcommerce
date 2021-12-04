@@ -2,7 +2,7 @@ import Header from "../components/Header"
 import CartProduct from "../components/CartProduct";
 import CartDescription from "../components/CartDescription";
 import "../assets/styles/cart.scss"
-import Checkout from "../components/Checkout";
+import Checkout from "../components/CheckOut";
 
 function Cart() {
   return (
