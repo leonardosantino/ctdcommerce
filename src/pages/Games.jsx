@@ -24,7 +24,7 @@ function Games() {
       <Categorie>
         {
           data.map((data, index) => {
-            return <div key={index}><Card img={data.imagem} title={data.nome} description={data.descricao} console={data.console} valor={data.valor} /></div> 
+            return <div key={index}><Card img={data.imagem} title={data.nome} description={data.descricao} console={data.console} valor={data.valor} id={data.id}/></div> 
           })
         }
       </Categorie>

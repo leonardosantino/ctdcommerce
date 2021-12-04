@@ -4,41 +4,41 @@
         "descricao": "Web Games / CD project Red",
         "console": "PS4",
         "valor": 59.99,
-        "imagem": "images/games/imgGame1.png"
+        "imagem": "/images/games/imgGame1.png"
     },
     {
         "nome": "Hitman III",
         "descricao": "IO Interactive",
         "console": "PS4",
         "valor": 59.99,
-        "imagem": "images/games/imgGame2.png"
+        "imagem": "/images/games/imgGame2.png"
     },
     {
         "nome": "Destruction Allstars",
         "descricao": "SIE / Lucid Games",
         "console": "XBOX",
         "valor": 69.99,
-        "imagem": "images/games/imgGame3.png"
+        "imagem": "/images/games/imgGame3.png"
     },
     {
         "nome": "Godfall",
         "descricao": "Gearbox / counterplay games",
         "console": "XBOX",
         "valor": 59.99,
-        "imagem": "images/games/imgGame4.png"
+        "imagem": "/images/games/imgGame4.png"
     },
     {
         "nome": "FIFA 21",
         "descricao": "EA Sports",
         "console": "XBOX",
         "valor": 89.99,
-        "imagem": "images/games/imgGame5.png"
+        "imagem": "/images/games/imgGame5.png"
     },
     {
         "nome": "Ghost of Tsushima: Legend...",
         "descricao": "SIE / Sucker Punch",
         "console": "PS4",
         "valor": 99.99,
-        "imagem": "images/games/imgGame6.png"
+        "imagem": "/images/games/imgGame6.png"
     }
 ]
