@@ -8,12 +8,12 @@ function KeyFeatures() {
     return (
         <>
             <Container>
-                <div className="collections-tile px-5 mt-5">
+                <div className="collections-tile mt-5">
                     Key Features
                     <hr />
                 </div>
-                <Row className="p-5">
-                    <Col>
+                <Row>
+                    <Col md={4} className="py-3">
                         <div className="d-flex flex-column">
                             <img className="img-fluid" src={imgViceral} alt="img card" />
                             <div className="text-center">
@@ -22,7 +22,7 @@ function KeyFeatures() {
                             </div>
                         </div>
                     </Col>
-                    <Col>
+                    <Col md={4} className="py-3">
                         <div className="d-flex flex-column">
                             <img className="img-fluid" src={imgLead} alt="img card" />
                             <div className="text-center">
@@ -31,7 +31,7 @@ function KeyFeatures() {
                             </div>
                         </div>
                     </Col>
-                    <Col>
+                    <Col md={4} className="py-3">
                         <div className="d-flex flex-column">
                             <img className="img-fluid" src={imgDark} alt="img card" />
                             <div className="text-center">

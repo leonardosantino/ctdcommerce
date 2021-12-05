@@ -11,7 +11,7 @@ function Collections() {
     return (
         <>
             <Container>
-                <div className="collections-tile">
+                <div className="collections-tile mt-5">
                     Collections
                     <hr />
                 </div>
