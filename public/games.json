@@ -3,42 +3,91 @@
         "nome": "Cyberpunk 2077",
         "descricao": "Web Games / CD project Red",
         "console": "PS4",
-        "valor": 59.99,
+        "valor": 109.90,
         "imagem": "/images/games/imgGame1.png"
     },
     {
         "nome": "Hitman III",
         "descricao": "IO Interactive",
         "console": "PS4",
-        "valor": 59.99,
+        "valor": 159.90,
         "imagem": "/images/games/imgGame2.png"
     },
     {
         "nome": "Destruction Allstars",
         "descricao": "SIE / Lucid Games",
-        "console": "XBOX",
-        "valor": 69.99,
+        "console": "PS5",
+        "valor": 169.90,
         "imagem": "/images/games/imgGame3.png"
     },
     {
         "nome": "Godfall",
         "descricao": "Gearbox / counterplay games",
-        "console": "XBOX",
-        "valor": 59.99,
+        "console": "PS5",
+        "valor": 159.90,
         "imagem": "/images/games/imgGame4.png"
     },
     {
         "nome": "FIFA 21",
         "descricao": "EA Sports",
-        "console": "XBOX",
-        "valor": 89.99,
+        "console": "PS5",
+        "valor": 189.90,
         "imagem": "/images/games/imgGame5.png"
     },
     {
         "nome": "Ghost of Tsushima: Legend...",
         "descricao": "SIE / Sucker Punch",
         "console": "PS4",
-        "valor": 99.99,
+        "valor": 199.90,
         "imagem": "/images/games/imgGame6.png"
+    },
+    {
+        "nome": "Watch Dogs Legion",
+        "descricao": "Ubisoft",
+        "console": "PS4",
+        "valor": 209.90,
+        "imagem": "/images/games/imgGame7.png"
+    },
+    {
+        "nome": "Cloudpunk",
+        "descricao": "Maple Whispering / Ion Lands",
+        "console": "PS4",
+        "valor": 129.90,
+        "imagem": "/images/games/imgGame8.png"
+    },
+    {
+        "nome": "Crysis Remastered",
+        "descricao": "Crytek",
+        "console": "PS4",
+        "valor": 179.90,
+        "imagem": "/images/games/imgGame9.png"
+    },
+    {
+        "nome": "Far Cry 6",
+        "descricao": "Ubisoft",
+        "console": "PS5",
+        "valor": 139.90,
+        "imagem": "/images/games/imgGame10.png"
+    },
+    {
+        "nome": "This Is The Zodiac Spea...",
+        "descricao": "Klabater / Punch Punk Games",
+        "console": "PS4",
+        "valor": 199.90,
+        "imagem": "/images/games/imgGame11.png"
+    },
+    {
+        "nome": "NBA 2K21",
+        "descricao": "2K Sports / Visual Concepts",
+        "console": "PS5",
+        "valor": 209.90,
+        "imagem": "/images/games/imgGame12.png"
+    },
+    {
+        "nome": "Devil May Cry V: Special...",
+        "descricao": "Capcom",
+        "console": "PS5",
+        "valor": 219.90,
+        "imagem": "/images/games/imgGame13.png"
     }
 ]
