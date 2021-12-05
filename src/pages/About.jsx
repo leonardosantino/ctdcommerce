@@ -3,8 +3,7 @@ import Header from "../components/Header"
 import "../assets/styles/about.scss"
 
 import 'bootstrap/dist/css/bootstrap.css';
-import Carousel from 'react-bootstrap/Carousel';
-import Container from 'react-bootstrap/Container'
+import { Carousel, Container } from 'react-bootstrap';
 
 function About() {
 

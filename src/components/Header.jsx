@@ -1,5 +1,6 @@
 import "../assets/styles/header.scss"
 import { NavLink } from 'react-router-dom'
+import imag from './../assets/imgs/ctdoutrologo.png'
 // import Breadcrumb from 'react-bootstrap/Breadcrumb'
 
 function Header() {
@@ -9,7 +10,9 @@ function Header() {
 
         <div className="container-fluid">
 
-          <NavLink to="/" className="navbar-brand flex-grow-1">Sem Logo</NavLink>
+          <NavLink to="/" className="navbar-brand flex-grow-1">
+            <img src={imag} alt="" style={{width: "4rem"}}/>
+          </NavLink>
           <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
 
             <div className="offcanvas-header">

@@ -5,32 +5,30 @@ import imgBataman from "../assets/imgs/imgBatman.png"
 import imgPvr from "../assets/imgs/imgPvr.png"
 import imgEssencial from "../assets/imgs/imgEssentials.png"
 
+import { Container, Row, Col } from 'react-bootstrap'
+
 function Collections() {
     return (
         <>
-            <div className="container-fluid">
-                <div className="collections-tile px-5 my-5">
+            <Container>
+                <div className="collections-tile">
                     Collections
                     <hr />
                 </div>
-                <div className="row ps-5 collections ">
-                    <div className="col d-flex justify-content-center p-2">
+                <Row xs="auto" className="collections justify-content-center">
+                    <Col className="d-flex justify-content-evenly flex-wrap">
                         <img className="img-fluid" src={imgIndie} alt="img card" />
-                    </div>
-                    <div className="col d-flex justify-content-center p-2">
+
                         <img className="img-fluid" src={imgEditors} alt="img card" />
-                    </div>
-                    <div className="col d-flex justify-content-center p-2">
+
                         <img className="img-fluid" src={imgBataman} alt="img card" />
-                    </div>
-                    <div className="col d-flex justify-content-center p-2">
+
                         <img className="img-fluid" src={imgPvr} alt="img card" />
-                    </div>
-                    <div className="col d-flex justify-content-center p-2">
+
                         <img className="img-fluid" src={imgEssencial} alt="img card" />
-                    </div>
-                </div>
-            </div>
+                    </Col>
+                </Row>
+            </Container>
         </>
     );
 }

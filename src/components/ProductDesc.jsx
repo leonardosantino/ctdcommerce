@@ -1,29 +1,29 @@
 import "../assets/styles/produtodesc.scss"
 
-function ProductDesc({img, title, description, valor}) {
+import { Container, Row, Col } from 'react-bootstrap'
+
+function ProductDesc({ img, title, description, valor }) {
   return (
     <>
-      <div className="container-fluid product">
+      <Container className="product">
+        <Row>
+          <Col className="product-img">
+            <img className="img-fluid" src={img} alt="img description" />
+          </Col>
 
-        <div className="row">
+          <Col className="text-center">
+            <div className="product-title">{title}</div>
 
-        <div className="col product-img">
-          <img className="img-fluid" src={img} alt="img description" />
-        </div>
-
-        <div className="col text-center">
-          <div className="product-title">{title}</div>
-
-          <div className="precoDE">{description}</div>
+            <div className="precoDE">{description}</div>
 
           <div className="precoPOR">R$ {valor}</div>
 
-          <div className="">
-            <a href="#product" className="btn btn-primary"><i className="bi bi-bag"></i> Add to cart</a>
-          </div>
-        </div>
-        </div>
-      </div>
+            <div className="">
+              <a href="#product" className="btn btn-primary"><i className="bi bi-bag"></i> Add to cart</a>
+            </div>
+          </Col>
+        </Row>
+      </Container>
 
       <div className="details mt-5">
         <div className="detail-title">Details</div>
