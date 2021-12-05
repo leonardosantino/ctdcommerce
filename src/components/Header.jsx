@@ -1,9 +1,11 @@
 import "../assets/styles/header.scss"
 import { NavLink } from 'react-router-dom'
 import imag from './../assets/imgs/ctdoutrologo.png'
-// import Breadcrumb from 'react-bootstrap/Breadcrumb'
+import { UseCount } from "../context/Count";
 
 function Header() {
+  const {count } = UseCount()
+
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark" aria-label="Main navigation">
@@ -25,9 +27,6 @@ function Header() {
                 <li className="nav-item">
                   <NavLink to="/games" className="nav-link">Games</NavLink>
                 </li>
-                {/* <li className="nav-item ms-lg-3 me-lg-5">
-                  <NavLink to="/xbox" className="nav-link">Xbox</NavLink>
-                </li> */}
                 <li className="nav-item">
                   <NavLink to="/about" className="nav-link">About</NavLink>
                 </li>
@@ -42,7 +41,7 @@ function Header() {
               <a className="link-secondary text-decoration-none" href="#user" aria-label="User"><i className="bi bi-person-circle"></i>&nbsp; SIGN IN</a>
             </div>
             <div>
-              <NavLink to="/cart" className="link-secondary text-decoration-none"><i className="bi bi-bag"></i>&nbsp; Cart</NavLink>
+              <NavLink to="/cart" className="link-secondary text-decoration-none"><span className="cart-icon">{count > 0 &&(<span className="cart-number">{count}</span>)}</span>&nbsp; Cart</NavLink>
             </div>
           </div>
           <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -50,12 +49,6 @@ function Header() {
           </button>
         </div>
       </nav>
-      {/* {currentlyPath !== "home" && (
-        <Breadcrumb className="breadcrumb">
-          <Breadcrumb.Item className="ms-1"><NavLink to="/">Home</NavLink></Breadcrumb.Item>
-          <Breadcrumb.Item active>{currentlyPath}</Breadcrumb.Item>
-        </Breadcrumb>
-      )} */}
     </>
   );
 }
