@@ -16,7 +16,7 @@ function ProductDesc({img, title, description, valor}) {
 
           <div className="precoDE">{description}</div>
 
-          <div className="precoPOR">{valor}</div>
+          <div className="precoPOR">R$ {valor}</div>
 
           <div className="">
             <a href="#product" className="btn btn-primary"><i className="bi bi-bag"></i> Add to cart</a>

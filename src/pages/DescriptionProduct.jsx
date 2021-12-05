@@ -31,12 +31,12 @@ function DescriptionProduct() {
         {
           data.map(function (data, index) {
 
-            let prod = null
+            let product = null
             
             if (data.id === parseInt(id)) {
-              prod = <div key={index}><ProductDesc img={`/${data.imagem}`} title={data.nome} description={data.descricao} valor={data.valor} /></div>
+              product = <div key={index}><ProductDesc img={data.imagem} title={data.nome} description={data.descricao} valor={data.valor.toLocaleString(undefined, {minimumFractionDigits: 2,maximumFractionDigits: 2})} /></div>
             }
-            return prod
+            return product
           })
         }
 
