@@ -8,7 +8,7 @@ import { Carousel } from 'react-bootstrap';
 function CarouselHome() {
   return (
     <>
-      <Carousel fade>
+      <Carousel fade indicators={false}>
         <Carousel.Item>
           <img src={imgCarousel1} className="d-block w-100" alt="Homem Aranha" />
         </Carousel.Item>

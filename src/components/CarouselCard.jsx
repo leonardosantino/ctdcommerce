@@ -19,8 +19,8 @@ function CarouselCard() {
         <hr />
       </div>
 
-      <Carousel>
-        <Carousel.Item interval={1500}>
+      <Carousel indicators={false}>
+        <Carousel.Item interval={1500} >
           <div className="d-flex justify-content-evenly">
             <Card img={imgCard7} title={"Watch Dogs Legion"} description={"Ubisoft"} console={"PS4"} valor={89.90} id={1} />
             <Card img={imgCard8} title={"Cloudpunk"} description={"Maple Whispering / Ion Lands"} console={"XBOX"} valor={109.90} id={2} />

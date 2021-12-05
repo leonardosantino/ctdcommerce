@@ -27,7 +27,7 @@ function About() {
           <span className="persona-description">Conheça os criadores do CTD-Ecommerce:</span> <br />
         </div>
 
-        <Carousel>
+        <Carousel indicators={false}>
 
           {pessoa.map(({ img, nome, sobre, contato, email }) =>
             <Carousel.Item interval={2000}>
