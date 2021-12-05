@@ -1,7 +1,6 @@
 import "../assets/styles/persona.scss";
 import 'bootstrap/dist/css/bootstrap.css';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import { Row, Col } from 'react-bootstrap';
 
 function Persona({ img, nome, sobre, contato, email }) {
     const perfil = {

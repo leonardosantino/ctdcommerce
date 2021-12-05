@@ -1,15 +1,28 @@
 //Gradiente
 #gradient {
+    //azul
     background-image: linear-gradient(
-        #da6151 20%,
-        #d73b25 20%,
-        #d73b25 40%,
-        #c71b25 40%,
-        #c71b25 60%,
-        #961a39 60%,
-        #961a39 80%,
-        #601035 80%
+        #46dac9 20%,
+        #25c4d7 20%,
+        #2592d7 40%,
+        #1b47c7 40%,
+        #1d1bc7 60%,
+        #401a96 60%,
+        #1a3896 80%,
+        #2f1060 80%
     );
+
+    // vermelho:
+    //background-image: linear-gradient(
+    //     #da6151 20%,
+    //     #d73b25 20%,
+    //     #d73b25 40%,
+    //     #c71b25 40%,
+    //     #c71b25 60%,
+    //     #961a39 60%,
+    //     #961a39 80%,
+    //     #601035 80%
+    // );
     margin: 0 auto;
     margin-top: 5rem;
     margin-bottom: 5rem;

@@ -21,9 +21,10 @@
     max-width: 30rem;
     height: 18rem;
     padding: 0.5rem;
-    //background: #d0dce9;
-    background: #e9dbd0;
-    box-shadow: -20px 0 35px -25px black, 20px 0 35px -25px black;
+    background: #d0dce9;
+    //background: #e9dbd0;
+    //background: #e9e5d0;
+    box-shadow: -20px 0 35px -25px #1874fc, 20px 0 35px -25px #1874fc;
 
     h2 {
         font-family: courier;
@@ -48,18 +49,18 @@
     .perfil {
         width: 7rem;
         height: 7rem;
-        background-position: top;
+        background-position: left;
         background-repeat: no-repeat;
         background-size: cover;
         float: left;
         margin-right: 20px;
         // -webkit-filter: sepia(1);
         // -moz-filter: sepia(1);
-        // filter: sepia(1);
+        //filter: sepia(1);
         border-radius: 50%;
         border-block-start: thick double #1874fc;
         writing-mode: vertical-lr;
-        border-right: groove;
+        border-right: groove #92b0ff;
         writing-mode: vertical-lr;
     }
 }
