@@ -32,18 +32,17 @@
 
 //page
 .persona {
-    padding: 2rem;
-    hr {
-        border: 1px solid #fff;
-        width: 7rem;
-    }
+    padding: 2rem 0;
     .persona-title {
         font-style: normal;
-        font-weight: 600;
-        font-size: 36px;
-        line-height: 40px;
-        letter-spacing: 0.02em;
-        color: #fff;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 25px;
+        color: #ffffff;
+        hr {
+            width: 5em;
+            border: 1px solid #065baa;
+        }
     }
     .persona-description {
         font-style: normal;
