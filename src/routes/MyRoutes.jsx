@@ -4,6 +4,7 @@ import Home from '../pages/Home';
 import Games from '../pages/Games';
 import Cart from '../pages/Cart';
 import DescriptionProduct from '../pages/DescriptionProduct';
+import NotFound from '../pages/NotFound';
 
 function MyRoutes() {
     return (
@@ -17,6 +18,8 @@ function MyRoutes() {
 
                 <Route path="/about" element={<About />} />
                 <Route path="/cart" element={<Cart />} />
+
+                <Route path="/*" element={<NotFound/>} />
                 
             </Routes>
         </BrowserRouter>

@@ -2,8 +2,6 @@ import { createContext, useContext, useState } from "react";
 
 const CountContext = createContext();
 
-
-
 export default function CountProvider({children}) {
 
     const [count, setCount] = useState(0);
@@ -23,5 +21,4 @@ export  function UseCount() {
     const {count, setCount} = context;
 
     return {count, setCount}
-    
 }

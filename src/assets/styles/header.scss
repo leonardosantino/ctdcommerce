@@ -15,21 +15,11 @@ nav {
         line-height: 21px;
         text-transform: uppercase;
         color: #FFFFFF !important;
-        &:hover{
-            box-shadow: 0px 1px;
-            color: #EB5757 !important;
-        }
     }
-    .link-secondary{
-        font-style: normal;
-        font-weight: 600;
-        font-size: 1rem;
-        line-height: 21px;
-        text-transform: uppercase;
-        color: #FFFFFF !important;
-        &:hover{
-            color: #EB5757 !important;
-        }
+
+    .active{
+        box-shadow: 0px 1px;
+        color: #EB5757 !important;
     }
     .cart-icon{
         background-image: url(../imgs/bag.svg);
