@@ -6,9 +6,7 @@ export default function CountProvider({children}) {
 
     const [count, setCount] = useState(0);
     const [product, setProduct] = useState([]);
-    console.log(product);
-    console.log(count);
-
+    
     return(
 
         <CountContext.Provider value={{product, setProduct, count, setCount}}>

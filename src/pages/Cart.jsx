@@ -29,8 +29,8 @@ function Cart() {
                 </thead>
                 <tbody>
                   {
-                    product.map((item)=>{
-                      return <CartProduct img={item.imgproduct} description={item.titleproduct  + " " + item.descriptionproduct} valor={item.valorproduct} quantity={item.quantity}/>
+                    product.map((item, index)=>{
+                      return <tr key={index}><CartProduct img={item.imgproduct} description={item.titleproduct  + " " + item.descriptionproduct} valor={item.valorproduct} quantity={item.quantity}/></tr>
                     })
                   }
                 </tbody>
