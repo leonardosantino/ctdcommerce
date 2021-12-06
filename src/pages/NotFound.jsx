@@ -1,5 +1,7 @@
 import './../assets/styles/notFound.scss';
-import { Container } from 'react-bootstrap'
+import { Container } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
+
 function NotFound() {
     return (
         <>
@@ -137,7 +139,7 @@ function NotFound() {
                     </div>
                     <div>
                         {/* Replace your Home page address with href */}
-                        <a href="/">
+                        <NavLink to="/">
                             <svg width="107px" viewBox="0 0 107 34" xmlns="http://www.w3.org/2000/svg"
                                 xmlnsXlink="http://www.w3.org/1999/xlink">
                                 <defs>
@@ -176,7 +178,7 @@ function NotFound() {
                                     </g>
                                 </g>
                             </svg>
-                        </a>
+                        </NavLink>
                     </div>
                 </div>
 
