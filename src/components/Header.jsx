@@ -1,12 +1,12 @@
 import "../assets/styles/header.scss"
 import { NavLink } from 'react-router-dom'
 import imag from './../assets/imgs/ctdoutrologo.png'
-import { UseCount } from "../context/Count"
+import { useCount } from "../context/Count"
 
 import { Navbar, Nav, Container } from 'react-bootstrap'
 
 function Header() {
-  const {count } = UseCount()
+  const {count } = useCount()
 
   return (
     <>

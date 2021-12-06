@@ -2,8 +2,10 @@ import "../assets/styles/cart.scss"
 import { Table, Row, Col, Container, Button } from "react-bootstrap";
 import CartProduct from "../components/CartProduct";
 import Header from "../components/Header"
+import { useCount } from "../context/Count";
 
 function Cart() {
+  const {product} = useCount();
   return (
     <>
       <Header />
@@ -17,16 +19,18 @@ function Cart() {
                     <th colSpan="2">Product</th>
                     <th>Price</th>
                     <th>Quantity</th>
-                    <th>Total</th>
+                    {/* <th>Total</th> */}
                     <th></th>
                   </tr>
                 </thead>
                 <tbody>
-                  <CartProduct />
-                  <CartProduct />
+                  {
+                    product.map((item)=>{
+                      return <CartProduct img={item.imgproduct} description={item.titleproduct  + " " + item.descriptionproduct} valor={item.valorproduct} quantity={item.quantity}/>
+                    })
+                  }
                 </tbody>
               </Table>
-
             </Col>
             <Col sm={12} lg={6}>
               <Table borderless className="cart-checkout">

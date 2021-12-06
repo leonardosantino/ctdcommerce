@@ -5,20 +5,24 @@ const CountContext = createContext();
 export default function CountProvider({children}) {
 
     const [count, setCount] = useState(0);
+    const [product, setProduct] = useState([]);
+    console.log(product);
+    console.log(count);
 
     return(
 
-        <CountContext.Provider value={{count, setCount}}>
+        <CountContext.Provider value={{product, setProduct, count, setCount}}>
             {children}
         </CountContext.Provider>
 
     );
 }
 
-export  function UseCount() {
+export  function useCount() {
 
     const context = useContext(CountContext)
     const {count, setCount} = context;
+    const {product, setProduct} = context;
 
-    return {count, setCount}
+    return {count, setCount, product, setProduct}
 }
