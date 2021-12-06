@@ -1,4 +1,4 @@
-import "../assets/styles/categorie.scss"
+import "../assets/styles/games.scss"
 import { NavLink } from "react-router-dom";
 import Header from "../components/Header";
 import apiCard from "../service/apiCard";
@@ -27,7 +27,7 @@ function Games() {
   return (
     <>
       <Header />
-      <main>
+      <main className="games">
         <Container fluid>
         <Row >
           <Col className="d-flex justify-content-center p-5 gap-3 catetorie-bar">
