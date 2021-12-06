@@ -1,57 +1,70 @@
 .card {
-    font-family: 'Open Sans', sans-serif;
-    max-width: 10em;
+  font-family: 'Open Sans', sans-serif;
+  max-width: 10em;
+  background: transparent;
+  border: 1px solid #383838;
+  box-sizing: border-box;
+  border-radius: 10px;
 
-    background: transparent;
-
-    border: 1px solid #383838;
-    box-sizing: border-box;
-    border-radius: 10px;
-
-    .card-body{
-        .card-title{
-            font-style: normal;
-            font-weight: 800;
-            font-size: .85em;
-            line-height: 16px;
-            color: #FFFFFF;
-        }
-        .card-text{
-            font-style: normal;
-            font-weight: 600;
-            font-size: .5em;
-            line-height: 14px;
-            color: #C4C4C4;
-        }
-        .card-cat .consol{
-            padding: 0 .2rem;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 12px;
-            line-height: 16px;
-            color: #C4C4C4;
-
-            border: 1px solid #383838;
-            box-sizing: border-box;
-            border-radius: 5px;
-        }
-        .card-btn{
-            // display: flex;
-            // justify-content: center;
-            
-            a{
-                width: 100%;
-                background: #0072CE;
-                box-shadow: 0px 0px 15px #0072CE;
-                border-radius: 10px;
-
-                font-style: normal;
-                font-weight: bold;
-                font-size: 12px;
-                line-height: 16px;
-                text-align: center;
-                color: #FFFFFF;
-            }
-        }
+  .card-body {
+    .card-title {
+      font-style: normal;
+      font-weight: 800;
+      font-size: .85em;
+      line-height: 16px;
+      color: #FFFFFF;
+      background: linear-gradient(to right, lightblue, lightblue 50%, royalblue 50%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-size: 200% 100%;
+      background-position: 100%;
+      transition: background-position 275ms ease;
+      &:hover {
+        background-position: 0 100%;
+      }
     }
+
+    .card-text {
+      font-style: normal;
+      font-weight: 600;
+      font-size: .5em;
+      line-height: 14px;
+      color: #C4C4C4;
+    }
+
+    .card-cat .consol {
+      padding: 0 .2rem;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 16px;
+      color: #C4C4C4;
+      border: 1px solid #383838;
+      box-sizing: border-box;
+      border-radius: 5px;
+    }
+
+    .card-btn {
+      // display: flex;
+      // justify-content: center;
+
+      a {
+        width: 100%;
+        background: #0072CE;
+        box-shadow: 0px 0px 15px #0072CE;
+        border-radius: 10px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 16px;
+        text-align: center;
+        color: #FFFFFF;
+      }
+
+      &:hover {
+        transform: scale(1.1);
+        transition: all 0.5s;
+      }
+    }
+  }
 }

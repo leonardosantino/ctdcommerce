@@ -1,10 +1,14 @@
 import './../assets/styles/notFound.scss';
 import { Container } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
+import {Helmet} from "react-helmet";
 
 function NotFound() {
     return (
         <>
+            <Helmet>
+                <title>CTD Ecommerce | Not Found</title>
+            </Helmet>
             {/* <!-- Make sure to change 'href' attribute (Go Home) in Line 110 --> */}
             <Container fluid>
                 <div className="notFound">
@@ -98,7 +102,7 @@ function NotFound() {
                             </g>
                         </svg>
                     </div>
-                    <div>
+                   {/* <div>
                         <svg width="293px" viewBox="0 0 293 63" xmlns="http://www.w3.org/2000/svg"
                             xmlnsXlink="http://www.w3.org/1999/xlink">
                             <defs>
@@ -136,7 +140,7 @@ function NotFound() {
                                 </g>
                             </g>
                         </svg>
-                    </div>
+                    </div>*/}
                     <div>
                         {/* Replace your Home page address with href */}
                         <NavLink to="/">

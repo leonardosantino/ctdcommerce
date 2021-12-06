@@ -1,10 +1,14 @@
 import "../assets/styles/produtodescription.scss"
 
 import { Container, Row, Col, Image, Button } from 'react-bootstrap'
+import {Helmet} from "react-helmet";
 
 function ProductDescription({ img, title, description, valor }) {
   return (
     <>
+      <Helmet>
+        <title>CTD Ecommerce | {title}</title>
+      </Helmet>
       <Container fluid className="product-description">
 
         <Row>

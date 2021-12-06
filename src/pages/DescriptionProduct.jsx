@@ -28,11 +28,10 @@ function DescriptionProduct() {
       <Header />
       <main className="descriptionproduct p-4">
 
-        {
-          data.map(function (data, index) {
+        {data.map(function (data, index) {
 
             let product = null
-            
+
             if (data.id === parseInt(id)) {
               product = <div key={index}><ProductDescription img={data.imagem} title={data.nome} description={data.descricao} valor={data.valor.toLocaleString(undefined, {minimumFractionDigits: 2,maximumFractionDigits: 2})} /></div>
             }

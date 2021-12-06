@@ -3,11 +3,15 @@ import { Table, Row, Col, Container, Button } from "react-bootstrap";
 import CartProduct from "../components/CartProduct";
 import Header from "../components/Header"
 import { useCount } from "../context/Count";
+import {Helmet} from "react-helmet";
 
 function Cart() {
   const {product} = useCount();
   return (
     <>
+      <Helmet>
+        <title>CTD Ecommerce | Cart </title>
+      </Helmet>
       <Header />
       <main className="cart">
         <Container fluid>
