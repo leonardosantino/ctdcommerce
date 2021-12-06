@@ -5,6 +5,7 @@ import apiCard from "../service/apiCard";
 import Card from "../components/Card";
 import { useParams } from "react-router";
 import { useEffect, useState } from "react";
+import {Row, Container, Col} from "react-bootstrap"
 
 function Games() {
 
@@ -26,29 +27,31 @@ function Games() {
   return (
     <>
       <Header />
-      <main className="container-fluid">
-        <div className="row">
-          <div className="col d-flex justify-content-center p-5 gap-3 catetorie-bar">
+      <main>
+        <Container fluid>
+        <Row >
+          <Col className="d-flex justify-content-center p-5 gap-3 catetorie-bar">
             <NavLink className="btn text-decoration-none" to="/games">ALL</NavLink>
             <NavLink className="btn text-decoration-none" to="/games/category/action">ACTION</NavLink>
             <NavLink className="btn text-decoration-none" to="/games/category/shooter">SHOOTER</NavLink>
             <NavLink className="btn text-decoration-none" to="/games/category/sports">SPORTS</NavLink>
-          </div>
-        </div>
+          </Col>
+        </Row>
 
-        <div className="row d-flex justify-content-center gap-1">
+        <Row className="d-flex justify-content-center gap-1">
           {
             data.map((data, index) => {
               let product = null
               if (data.categoria?.nome === category) {
-                product = <div className="col-auto " key={index}><Card img={data.imagem} title={data.nome} description={data.descricao} console={data.console} valor={data.valor} id={data.id} /></div>
+                product = <Col xs="auto" key={index}><Card img={data.imagem} title={data.nome} description={data.descricao} console={data.console} valor={data.valor} id={data.id} /></Col>
               } else if (!category) {
-                product = <div className="col-auto " key={index}><Card img={data.imagem} title={data.nome} description={data.descricao} console={data.console} valor={data.valor} id={data.id} /></div>
+                product = <Col xs="auto" key={index}><Card img={data.imagem} title={data.nome} description={data.descricao} console={data.console} valor={data.valor} id={data.id} /></Col>
               }
               return product
             })
           }
-        </div>
+        </Row>
+        </Container>
       </main>
     </>
   );
