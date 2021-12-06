@@ -4,7 +4,6 @@ import Header from "../components/Header"
 import apiCard from "../service/apiCard";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router";
-import {Helmet} from "react-helmet";
 
 function DescriptionProduct() {
 

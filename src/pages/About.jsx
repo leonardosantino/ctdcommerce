@@ -8,7 +8,7 @@ import {Helmet} from "react-helmet";
 
 function About() {
 
-    const pessoa = [
+    const integrantes = [
         {
             img: "images/personas/romullo.png",
             nome: "Rômullo",
@@ -63,7 +63,7 @@ function About() {
 
                 <Carousel indicators={false}>
 
-                    {pessoa.map(({img, nome, sobre, contato, email}) =>
+                    {integrantes.map(({img, nome, sobre, contato, email}) =>
                         <Carousel.Item interval={2000}>
                             <Container className="d-flex justify-content-center align-items-center">
                                 <Persona img={img} nome={nome} sobre={sobre} contato={contato} email={email}/>
