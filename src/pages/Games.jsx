@@ -30,7 +30,7 @@ function Games() {
       <main className="games">
         <Container fluid>
         <Row >
-          <Col className="d-flex justify-content-center p-5 gap-3 catetorie-bar">
+          <Col className="d-flex justify-content-center p-5 gap-3 games-filter">
             <NavLink className="btn text-decoration-none" to="/games">ALL</NavLink>
             <NavLink className="btn text-decoration-none" to="/games/category/action">ACTION</NavLink>
             <NavLink className="btn text-decoration-none" to="/games/category/shooter">SHOOTER</NavLink>
