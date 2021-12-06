@@ -5,9 +5,9 @@
         "console": "PS4",
         "valor": 109.90,
         "imagem": "/images/games/imgGame1.png",
-        "catoria":{
+        "categoria":{
             "id": 1,
-            "none":"action"
+            "nome":"action"
         }
     },
     {
@@ -16,9 +16,9 @@
         "console": "PS4",
         "valor": 159.90,
         "imagem": "/images/games/imgGame2.png",
-        "catoria":{
+        "categoria":{
             "id": 2,
-            "none":"shooter"
+            "nome":"shooter"
         }
     },
     {
@@ -27,9 +27,9 @@
         "console": "PS5",
         "valor": 169.90,
         "imagem": "/images/games/imgGame3.png",
-        "catoria":{
+        "categoria":{
             "id": 1,
-            "none":"action"
+            "nome":"action"
         }
     },
     {
@@ -38,9 +38,9 @@
         "console": "PS5",
         "valor": 159.90,
         "imagem": "/images/games/imgGame4.png",
-        "catoria":{
+        "categoria":{
             "id": 1,
-            "none":"action"
+            "nome":"action"
         }
     },
     {
@@ -49,9 +49,9 @@
         "console": "PS5",
         "valor": 189.90,
         "imagem": "/images/games/imgGame5.png",
-        "catoria":{
+        "categoria":{
             "id": 3,
-            "none":"sports"
+            "nome":"sports"
         }
     },
     {
@@ -60,9 +60,9 @@
         "console": "PS4",
         "valor": 199.90,
         "imagem": "/images/games/imgGame6.png",
-        "catoria":{
+        "categoria":{
             "id": 1,
-            "none":"action"
+            "nome":"action"
         }
     },
     {
@@ -71,9 +71,9 @@
         "console": "PS4",
         "valor": 209.90,
         "imagem": "/images/games/imgGame7.png",
-        "catoria":{
+        "categoria":{
             "id": 1,
-            "none":"action"
+            "nome":"action"
         }
     },
     {
@@ -82,9 +82,9 @@
         "console": "PS4",
         "valor": 129.90,
         "imagem": "/images/games/imgGame8.png",
-        "catoria":{
+        "categoria":{
             "id": 1,
-            "none":"action"
+            "nome":"action"
         }
     },
     {
@@ -93,9 +93,9 @@
         "console": "PS4",
         "valor": 179.90,
         "imagem": "/images/games/imgGame9.png",
-        "catoria":{
+        "categoria":{
             "id": 1,
-            "none":"action"
+            "nome":"action"
         }
     },
     {
@@ -104,9 +104,9 @@
         "console": "PS5",
         "valor": 139.90,
         "imagem": "/images/games/imgGame10.png",
-        "catoria":{
+        "categoria":{
             "id": 2,
-            "none":"shooter"
+            "nome":"shooter"
         }
     },
     {
@@ -115,9 +115,9 @@
         "console": "PS4",
         "valor": 199.90,
         "imagem": "/images/games/imgGame11.png",
-        "catoria":{
+        "categoria":{
             "id": 1,
-            "none":"action"
+            "nome":"action"
         }
     },
     {
@@ -126,9 +126,9 @@
         "console": "PS5",
         "valor": 209.90,
         "imagem": "/images/games/imgGame12.png",
-        "catoria":{
+        "categoria":{
             "id": 3,
-            "none":"sports"
+            "nome":"sports"
         }
     },
     {
@@ -137,9 +137,9 @@
         "console": "PS5",
         "valor": 219.90,
         "imagem": "/images/games/imgGame13.png",
-        "catoria":{
+        "categoria":{
             "id": 2,
-            "none":"shooter"
+            "nome":"shooter"
         }
     }
 ]

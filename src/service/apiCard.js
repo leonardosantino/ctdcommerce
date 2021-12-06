@@ -2,12 +2,12 @@ import axios from "axios";
 
 
 const api = axios.create({
-    baseURL: 'http://localhost:8080'
+    baseURL: '/games.json'
 });
 
 async function apiCard() {
 
-    return await api.get(`/produto`)
+    return await api.get()
 }
 
 export default apiCard;
