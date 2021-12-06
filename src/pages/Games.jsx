@@ -36,7 +36,7 @@ function Games() {
           </div>
         </div>
 
-        <div className="row d-flex justify-content-center gap-2">
+        <div className="row d-flex justify-content-center gap-1">
           {
             data.map((data, index) => {
               let product = null
