@@ -1,19 +1,74 @@
-.cart-home{
+.cart{
+    font-family: 'Oswald', sans-serif;
+    background-color: white;
+    height: 75vh;
+    padding-top: .75em;
 
+    .cart-product{
 
-        background-color: white;
-        height: 90vh;
+        thead{
 
-        .cart-home-text{
-
-            font-family: Oswald;
+    
             font-style: normal;
-            font-weight: normal;
-            font-size: 1.5em;
-            line-height: 68px;
-            color: #000000;
-
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 27px;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            color: #828282;
+            border-bottom: 2px solid #C4C4C4;
         }
+        
+        tr{
+            th{
+                input{
+                    max-width: 3em;
+                }
+                
+            }
+            .cart-col-img{
+                max-width: 5em;
+    
+            }
+            .cart-col-desc{
+    
+                font-style: normal;
+                font-weight: 500;
+                font-size: .75em;
+                line-height: 27px;
+                letter-spacing: 0.5px;
+                text-transform: uppercase;
+                color: #000000;
+            }
+            .cart-text-normal{
+                font-size: .75em;
+                
+            }
+    
+        }
+    }
+    .cart-checkout{
+        background: #F0F2F2;
+        /* Divider */
+
+        border: 2px solid #C4C4C4;
+        box-sizing: border-box;
+        .checkout-button{
+            width: 100%;
+            border: none;
+        }
+    }
+    .checkout-col-button{
+        background-color: black;
+    }
+    .checkount-col-check{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        color: #828282;
+    }
 
 }
-

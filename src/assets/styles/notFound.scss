@@ -17,17 +17,17 @@ $easeOutExpo: cubic-bezier(0.190, 1.000, 0.220, 1.000);
 	outline: none!important;
 }
 
-body, html { 
+.body, html { 
 	height: 100%; 
 }
 
-body {
+.body {
 	height: 100vh;
 	background: #121214; 
 }
 
 
-main {
+.main {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -135,7 +135,7 @@ main {
 }
 
 @-moz-document url-prefix() {
-	main {
+	.main {
 		> div {
 			&:nth-child(3) {
 				a {

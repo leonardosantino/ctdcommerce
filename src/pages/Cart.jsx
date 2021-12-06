@@ -1,29 +1,61 @@
-import Header from "../components/Header"
-import CartProduct from "../components/CartProduct";
-import CartDescription from "../components/CartDescription";
 import "../assets/styles/cart.scss"
-import Checkout from "../components/Checkout";
+import { Table, Row, Col, Container, Button } from "react-bootstrap";
+import CartProduct from "../components/CartProduct";
+import Header from "../components/Header"
 
 function Cart() {
   return (
     <>
-      <Header currentlyPath="cart" />
-      <div className="cart-home">
-        <div className="d-flex justify-content-center p-3 cart-home-text">Shopping Cart</div>
-        <CartDescription />
-        <div className="d-flex flex-wrap">
+      <Header />
+      <main className="cart">
+        <Container fluid>
+          <Row >
+            <Col sm={12} lg={6}>
+              <Table borderless className="cart-product">
+                <thead>
+                  <tr>
+                    <th colSpan="2">Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                    <th>Option</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <CartProduct />
+                  <CartProduct />
+                </tbody>
+              </Table>
 
-          <div className="col">
-            <CartProduct />
-            <CartProduct />
-          </div>
-
-          <div className="col">
-            <Checkout/>
-          </div>
-          
-        </div>
-      </div>
+            </Col>
+            <Col sm={12} lg={6}>
+              <Table borderless className="cart-checkout">
+                <thead>
+                  <tr>
+                    <th colSpan="2" className="text-center">Checkount</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th  >Subtotal</th>
+                    <th className="text-end">R$ 119,90</th>
+                  </tr>
+                  <tr>
+                    <th >Total</th>
+                    <th className="text-end">R$ 119,90</th>
+                  </tr>
+                  <tr >
+                    <th colSpan="2" className="text-center checkount-col-check">Check Out with Multiple Addresses</th>
+                  </tr>
+                  <tr>
+                    <th colSpan="2" className="text-center checkout-col-button"><Button variant="primary" size="lg" className="checkout-button bg-transparent"> Proceed to checkout</Button></th>
+                  </tr>
+                </tbody>
+              </Table>
+            </Col>
+          </Row>
+        </Container>
+      </main>
     </>
   );
 }
