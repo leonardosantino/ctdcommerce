@@ -1,5 +1,6 @@
 [
     {
+        "id": 1,
         "nome": "Cyberpunk 2077",
         "descricao": "Web Games / CD project Red",
         "console": "PS4",
@@ -11,6 +12,7 @@
         }
     },
     {
+        "id": 2,
         "nome": "Hitman III",
         "descricao": "IO Interactive",
         "console": "PS4",
@@ -22,6 +24,7 @@
         }
     },
     {
+        "id": 3,
         "nome": "Destruction Allstars",
         "descricao": "SIE / Lucid Games",
         "console": "PS5",
@@ -33,6 +36,7 @@
         }
     },
     {
+        "id": 4,
         "nome": "Godfall",
         "descricao": "Gearbox / counterplay games",
         "console": "PS5",
@@ -44,6 +48,7 @@
         }
     },
     {
+        "id": 5,
         "nome": "FIFA 21",
         "descricao": "EA Sports",
         "console": "PS5",
@@ -55,6 +60,7 @@
         }
     },
     {
+        "id": 6,
         "nome": "Ghost of Tsushima: Legend...",
         "descricao": "SIE / Sucker Punch",
         "console": "PS4",
@@ -66,6 +72,7 @@
         }
     },
     {
+        "id": 7,
         "nome": "Watch Dogs Legion",
         "descricao": "Ubisoft",
         "console": "PS4",
@@ -77,6 +84,7 @@
         }
     },
     {
+        "id": 8,
         "nome": "Cloudpunk",
         "descricao": "Maple Whispering / Ion Lands",
         "console": "PS4",
@@ -88,6 +96,7 @@
         }
     },
     {
+        "id": 9,
         "nome": "Crysis Remastered",
         "descricao": "Crytek",
         "console": "PS4",
@@ -99,6 +108,7 @@
         }
     },
     {
+        "id": 10,
         "nome": "Far Cry 6",
         "descricao": "Ubisoft",
         "console": "PS5",
@@ -109,7 +119,7 @@
             "nome":"shooter"
         }
     },
-    {
+    {"id": 11,
         "nome": "This Is The Zodiac Spea...",
         "descricao": "Klabater / Punch Punk Games",
         "console": "PS4",
@@ -121,6 +131,7 @@
         }
     },
     {
+        "id": 12,
         "nome": "NBA 2K21",
         "descricao": "2K Sports / Visual Concepts",
         "console": "PS5",
@@ -132,6 +143,7 @@
         }
     },
     {
+        "id": 13,
         "nome": "Devil May Cry V: Special...",
         "descricao": "Capcom",
         "console": "PS5",

@@ -36,14 +36,14 @@ function Games() {
           </div>
         </div>
 
-        <div className="row gap-2">
+        <div className="row d-flex justify-content-center gap-2">
           {
             data.map((data, index) => {
               let product = null
               if (data.categoria?.nome === category) {
-                product = <div className="col-auto" key={index}><Card img={data.imagem} title={data.nome} description={data.descricao} console={data.console} valor={data.valor} id={data.id} /></div>
+                product = <div className="col-auto " key={index}><Card img={data.imagem} title={data.nome} description={data.descricao} console={data.console} valor={data.valor} id={data.id} /></div>
               } else if (!category) {
-                product = <div className="col-auto" key={index}><Card img={data.imagem} title={data.nome} description={data.descricao} console={data.console} valor={data.valor} id={data.id} /></div>
+                product = <div className="col-auto " key={index}><Card img={data.imagem} title={data.nome} description={data.descricao} console={data.console} valor={data.valor} id={data.id} /></div>
               }
               return product
             })

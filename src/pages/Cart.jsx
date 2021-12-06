@@ -11,14 +11,14 @@ function Cart() {
         <Container fluid>
           <Row >
             <Col sm={12} lg={6}>
-              <Table borderless className="cart-product">
+              <Table responsive="sm" borderless className="cart-product" >
                 <thead>
                   <tr>
                     <th colSpan="2">Product</th>
                     <th>Price</th>
                     <th>Quantity</th>
                     <th>Total</th>
-                    <th>Option</th>
+                    <th></th>
                   </tr>
                 </thead>
                 <tbody>

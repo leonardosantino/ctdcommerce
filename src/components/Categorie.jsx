@@ -1,17 +1,16 @@
-import "../assets/styles/categorie.scss"
+// import "../assets/styles/categorie.scss"
 
-function Categorie() {
-  return (
-    <>
-    <div className="container-fluid">
-      div
+// function Categorie() {
+//   return (
+//     <>
+//     <div className="container-fluid">
 
-    </div>
-    </>
-  );
-}
+//     </div>
+//     </>
+//   );
+// }
 
-export default Categorie;
+// export default Categorie;
 
 
 
