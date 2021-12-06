@@ -2,10 +2,14 @@ import "../assets/styles/cart.scss"
 import { Table, Row, Col, Container, Button } from "react-bootstrap";
 import CartProduct from "../components/CartProduct";
 import Header from "../components/Header"
+import {Helmet} from "react-helmet";
 
 function Cart() {
   return (
     <>
+      <Helmet>
+        <title>CTD Ecommerce | Cart </title>
+      </Helmet>
       <Header />
       <main className="cart">
         <Container fluid>

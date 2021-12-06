@@ -6,6 +6,7 @@ import Card from "../components/Card";
 import { useParams } from "react-router";
 import { useEffect, useState } from "react";
 import {Row, Container, Col} from "react-bootstrap"
+import {Helmet} from "react-helmet";
 
 function Games() {
 
@@ -26,6 +27,10 @@ function Games() {
 
   return (
     <>
+      <Helmet>
+
+        <title>CTD Ecommerce | {!category ? 'game' : category}</title>
+      </Helmet>
       <Header />
       <main className="games">
         <Container fluid>

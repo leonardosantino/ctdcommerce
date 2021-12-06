@@ -4,10 +4,14 @@ import CarouselHome from "../components/CarouselHome";
 import CarouselCard from "../components/CarouselCard";
 import Collections from "../components/Collections";
 import KeyFeatures from "../components/KeyFeatures";
+import {Helmet} from "react-helmet";
 
 function Home() {
         return (
                 <>
+                    <Helmet>
+                        <title>CTD Ecommerce</title>
+                    </Helmet>
                         <Header currentlyPath="home" />
                         <CarouselHome />
                         <CarouselCard />
