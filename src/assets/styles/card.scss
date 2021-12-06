@@ -1,6 +1,6 @@
 .card {
     font-family: 'Open Sans', sans-serif;
-    width: 12rem;
+    max-width: 10rem;
 
     background: transparent;
 
@@ -12,14 +12,14 @@
         .card-title{
             font-style: normal;
             font-weight: 800;
-            font-size: 12px;
+            font-size: .85em;
             line-height: 16px;
             color: #FFFFFF;
         }
         .card-text{
             font-style: normal;
             font-weight: 600;
-            font-size: 10px;
+            font-size: .5em;
             line-height: 14px;
             color: #C4C4C4;
         }
