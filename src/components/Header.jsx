@@ -1,5 +1,5 @@
 import "../assets/styles/header.scss"
-import { NavLink } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 import imag from './../assets/imgs/ctdoutrologo.png'
 import { UseCount } from "../context/Count"
 
@@ -12,9 +12,9 @@ function Header() {
     <>
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container fluid>
-          <NavLink to="/">
+          <Link to="/">
             <img src={imag} alt="Logo site CTD Ecommerce" style={{ width: "4rem" }} />
-          </NavLink>
+          </Link>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
