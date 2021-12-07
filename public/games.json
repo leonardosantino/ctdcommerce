@@ -3,32 +3,35 @@
         "id": 1,
         "nome": "Cyberpunk 2077",
         "descricao": "Web Games / CD project Red",
-        "console": "PS4",
-        "valor": 109.90,
+        "sinpse":"Cyberpunk 2077 is an open-world, action-adventure story set in Night City, a megalopolis obsessed with power, glamour and body modification. You play as V, a mercenary outlaw going after a one-of-a-kind implant that is the key to immortality.",
+        "console": "PS5",
+        "valor": 199.90,
         "imagem": "/images/games/imgGame1.png",
         "categoria":{
             "id": 1,
-            "nome":"action"
+            "nome":"shooter"
         }
     },
     {
         "id": 2,
         "nome": "Hitman III",
         "descricao": "IO Interactive",
-        "console": "PS4",
-        "valor": 159.90,
+        "sinopse":" Agent 47 returns as a ruthless professional in HITMAN 3 for the most important contracts of his entire career. Embark on an intimate journey of darkness and hope in the dramatic conclusion to the World of Assassination trilogy. Death awaits.",
+        "console": "PS5",
+        "valor": 113.90,
         "imagem": "/images/games/imgGame2.png",
         "categoria":{
             "id": 2,
-            "nome":"shooter"
+            "nome":"action"
         }
     },
     {
         "id": 3,
         "nome": "Destruction Allstars",
         "descricao": "SIE / Lucid Games",
+        "sinopse": "Domine o fenômeno global Destruction AllStars – o “Esporte Espetacular” do horário nobre para motoristas perigosos! Domine a arte de combate intenso baseado em veículos através do tempo, táticas e habilidades para causar diversos danos colossais, destruição e devastação em arenas vibrantes em todo o mundo.",
         "console": "PS5",
-        "valor": 169.90,
+        "valor": 99.50,
         "imagem": "/images/games/imgGame3.png",
         "categoria":{
             "id": 1,
@@ -39,8 +42,9 @@
         "id": 4,
         "nome": "Godfall",
         "descricao": "Gearbox / counterplay games",
+        "sinopse": "Salve Aperion. Você é o último dos cavaleiros Valorians, uma ordem de mestres do combate que usam armaduras lendárias chamadas Valorplates. Ascenda em Godfall, o primeiro RPG de ação looter-slasher com foco em combate corpo a corpo.",
         "console": "PS5",
-        "valor": 159.90,
+        "valor": 75.90,
         "imagem": "/images/games/imgGame4.png",
         "categoria":{
             "id": 1,
@@ -51,8 +55,9 @@
         "id": 5,
         "nome": "FIFA 21",
         "descricao": "EA Sports",
+        "sinopse": "A união faz a força no EA SPORTS™ FIFA 21, com tecnologia Frostbite™. Seja nas ruas ou no estádio, o FIFA 21 oferece mais maneiras de jogar do que antes, incluindo a UEFA Champions League e a CONMEBOL Libertadores.",
         "console": "PS5",
-        "valor": 189.90,
+        "valor": 298.90,
         "imagem": "/images/games/imgGame5.png",
         "categoria":{
             "id": 3,
@@ -63,8 +68,9 @@
         "id": 6,
         "nome": "Ghost of Tsushima: Legend...",
         "descricao": "SIE / Sucker Punch",
+        "sinopse": "Ghost of Tsushima: Legends é uma experiência de jogo multijogador cooperativo online* inspirada na mitologia japonesa. Escolha entre quatro classes – Samurai, Caçador, Ronin ou Assassino – e jogue com amigos ou via organização de partidas em missões de história para dois jogadores, missões de sobrevivência para quatro jogadores ou no novo Modo Rivais.",
         "console": "PS4",
-        "valor": 199.90,
+        "valor": 104.90,
         "imagem": "/images/games/imgGame6.png",
         "categoria":{
             "id": 1,
@@ -74,9 +80,10 @@
     {
         "id": 7,
         "nome": "Watch Dogs Legion",
-        "descricao": "Ubisoft",
+        "descricao": "Ubisoft Entertainment",
+        "sinopse": "Constrói uma resistência com praticamente qualquer pessoa que encontras na rua, à medida que fazes hacking, te infiltras e lutas para recuperar a Londres de um futuro próximo que está à beira da ruína. Bem-vindo à Resistência.",
         "console": "PS4",
-        "valor": 209.90,
+        "valor": 279.90,
         "imagem": "/images/games/imgGame7.png",
         "categoria":{
             "id": 1,
@@ -86,10 +93,10 @@
     {
         "id": 8,
         "nome": "Cloudpunk",
-        "descricao": "Maple Whispering / Ion Lands",
-        "sinopse": " Text logo",
+        "descricao": "MERGE GAMES",
+        "sinopse": "Na dispersa cidade ‘cyberpunk’ de Nivalis, a sua primeira noite como motorista de entregas para a Cloudpunk fará com que conheça e interaja com um elenco diverso de seres humanos, IA e androides, cada um com a sua própria história para contar.",
         "console": "PS4",
-        "valor": 129.90,
+        "valor": 124.50,
         "imagem": "/images/games/imgGame8.png",
         "categoria":{
             "id": 1,
@@ -102,8 +109,9 @@
         "id": 9,
         "nome": "Crysis Remastered",
         "descricao": "Crytek",
+        "sinopse":"O clássico jogo de tiro em primeira pessoa da Crytek está de volta com jogabilidade repleta de ação, mundo em sandbox e emocionantes batalhas épicas que você tanto adorou da primeira vez – agora com ray tracing, gráficos remasterizados otimizados para uma nova geração de hardware.",
         "console": "PS4",
-        "valor": 179.90,
+        "valor": 159.90,
         "imagem": "/images/games/imgGame9.png",
         "categoria":{
             "id": 1,
@@ -113,32 +121,36 @@
     {
         "id": 10,
         "nome": "Far Cry 6",
-        "descricao": "Ubisoft",
+        "descricao": "Ubisoft Entertainment",
+        "sinopse": "Esta é Yara, um paraíso tropical congelado no tempo. Far Cry 6 leva os jogadores a um mundo cheio de adrenalina durante uma revolução de guerrilha moderna. Junte-se à revolução e enfrente o regime opressor do ditador Antón Castillo e do filho Diego, interpretados pelas estrelas de Hollywood Giancarlo Esposito (O Mandaloriano, Breaking Bad) e Anthony Gonzalez (Viva - A Vida é uma Festa).",
         "console": "PS5",
-        "valor": 139.90,
+        "valor": 279.90,
         "imagem": "/images/games/imgGame10.png",
         "categoria":{
             "id": 2,
             "nome":"shooter"
         }
     },
-    {"id": 11,
+    {
+        "id": 11,
         "nome": "This Is The Zodiac Spea...",
         "descricao": "Klabater / Punch Punk Games",
+        "sinopse": "This is the Zodiac Speaking é um thriller psicológico de um jogador baseado em fatos reais, feito com base na história de Zodiac, um dos mais famosos assassinos em série jamais capturados. Ele mistura visuais vintage da Califórnia dos anos 70 e uma trilha sonora cinematográfica épica original com elementos de jogabilidade que incluem terror clássico, investigação, mecânica furtiva e vários finais a se descobrir.",
         "console": "PS4",
-        "valor": 199.90,
+        "valor": 69.90,
         "imagem": "/images/games/imgGame11.png",
         "categoria":{
             "id": 1,
-            "nome":"action"
+            "nome":"shooter"
         }
     },
     {
         "id": 12,
         "nome": "NBA 2K21",
         "descricao": "2K Sports / Visual Concepts",
-        "console": "PS5",
-        "valor": 209.90,
+        "sinopse": "O NBA 2K21 é o novo jogo da renomada franquia de sucesso NBA 2K, que traz uma experiência esportiva líder de mercado para o PlayStation®4. Com diversas melhorias gráficas e de jogabilidade, funcionalidades online competitivas e da comunidade, e modos de jogos variados e aprofundados, o NBA 2K21 oferece uma imersão sem igual no mundo e na cultura do basquete da NBA. Everything is Game.",
+        "console": "PS4",
+        "valor": 249.90,
         "imagem": "/images/games/imgGame12.png",
         "categoria":{
             "id": 3,
@@ -148,13 +160,40 @@
     {
         "id": 13,
         "nome": "Devil May Cry V: Special...",
-        "descricao": "Capcom",
+        "descricao": "Capcom U.S.A., Inc.",
+        "sinopse": "DEVIL MAY CRY ESTÁ DE VOLTA, BABY!! O lendário estiloso jogo de ação está melhor do que nunca na versão definitiva deste premiado sucesso. Novidades: - Novo personagem jogável - o irmão e arquirival de Dante, Vergil - Modo Cavaleiro Negro Lendário - um modo de horda extremamente desafiador com uma quantidade enorme de inimigos - Modo Turbo - torne o jogo ainda mais intenso jogando em 1,2x a velocidade - Suporte a Ray-tracing - esta tecnologia gráfica da próxima geração traz o já quase fotorrealista mundo de DMC5 a um novo nível de esplendor visual sem igual - Modo de taxa de quadros alta - experimente uma ação incrivelmente fluida",
         "console": "PS5",
-        "valor": 219.90,
+        "valor": 164.90,
         "imagem": "/images/games/imgGame13.png",
         "categoria":{
             "id": 2,
-            "nome":"shooter"
+            "nome":"action"
+        }
+    },
+    {
+        "id": 14,
+        "nome": "Assassin's Creed Valhalla",
+        "descricao": "Ubisoft",
+        "sinopse": "Baixe a versão de PS4™ deste jogo, sem custo extra, quando comprar a versão digital de PS5™ na PlayStation™Store. Em Assassin's Creed® Valhalla, torne-se Eivor, um invasor Viking lendário em busca de glória. Explore a Idade das Trevas da Inglaterra enquanto ataca seus inimigos, amplia seu assentamento e consolida seu poder político.",
+        "console": "PS4",
+        "valor": 279.90,
+        "imagem": "/images/games/imgGame14.png",
+        "categoria":{
+            "id": 2,
+            "nome":"action"
+        }
+    },
+    {
+        "id": 15,
+        "nome": "Need For Speed Hot Pur...",
+        "descricao": "EA Sports",
+        "sinopse": "Sinta a emoção da perseguição e a adrenalina da fuga em Need for Speed™ Hot Pursuit Remastered no PlayStation®4. Sinta a sensação extrema de velocidade, tanto como fora da lei quanto como policial, nos carros mais potentes do mundo. Supere a perseguição ou enfrente infratores com o armamento tático à sua disposição em uma experiência competitiva de corrida cheia de energia. Atualizado com visuais aprimorados, multijogador crossplay (incluindo a competição assíncrona fornecida por AutoLog), além de todo o conteúdo adicional dos DLCs: essa é a edição definitiva da aclamada estreia da Criterion Games em Need for Speed. É hora de reacender a perseguição.",
+        "console": "PS4",
+        "valor": 198.90,
+        "imagem": "/images/games/imgGame15.png",
+        "categoria":{
+            "id": 2,
+            "nome":"sports"
         }
     }
 ]
