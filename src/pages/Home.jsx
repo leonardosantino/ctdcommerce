@@ -14,9 +14,18 @@ function Home() {
                     </Helmet>
                         <Header currentlyPath="home" />
                         <CarouselHome />
+                        <div className="my-5">
                         <CarouselCard />
+                        </div>
+                        <div className="my-5">
                         <KeyFeatures />
-                        <Collections />
+                        </div>
+                        <div className="my-5">
+                        <Collections /> 
+                        </div>
+                        
+                        
+                        
                 </>
         );
 }

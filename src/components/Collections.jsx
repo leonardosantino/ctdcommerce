@@ -5,27 +5,34 @@ import imgBataman from "../assets/imgs/imgBatman.png"
 import imgPvr from "../assets/imgs/imgPvr.png"
 import imgEssencial from "../assets/imgs/imgEssentials.png"
 
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Image } from 'react-bootstrap'
 
 function Collections() {
     return (
         <>
-            <Container>
-                <div className="collections-tile mt-5">
-                    Collections
-                    <hr />
-                </div>
-                <Row xs="auto" className="collections justify-content-center">
-                    <Col className="d-flex justify-content-evenly flex-wrap">
-                        <img className="img-fluid" src={imgIndie} alt="img card" />
+            <Container fluid className="collections">
+                <Row >
+                    <Col className="collections-tile">
+                        Collections
+                        <hr />
+                    </Col>
+                </Row>
 
-                        <img className="img-fluid" src={imgEditors} alt="img card" />
-
-                        <img className="img-fluid" src={imgBataman} alt="img card" />
-
-                        <img className="img-fluid" src={imgPvr} alt="img card" />
-
-                        <img className="img-fluid" src={imgEssencial} alt="img card" />
+                <Row xs={3} md={6} className="justify-content-center">
+                    <Col xs="auto" className="d-flex justify-content-center">
+                        <Image src={imgIndie} fluid />
+                    </Col>
+                    <Col xs="auto" className="d-flex justify-content-center">
+                        <Image src={imgEditors} fluid />
+                    </Col>
+                    <Col xs="auto" className="d-flex justify-content-center">
+                        <Image src={imgBataman} fluid />
+                    </Col>
+                    <Col xs="auto" className="d-flex justify-content-center">
+                        <Image src={imgPvr} fluid />
+                    </Col>
+                    <Col className="d-flex justify-content-center">
+                        <Image src={imgEssencial} fluid />
                     </Col>
                 </Row>
             </Container>

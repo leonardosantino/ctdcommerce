@@ -45,19 +45,16 @@
     }
 
     .card-btn {
-      // display: flex;
-      // justify-content: center;
 
-      a {
+      button {
         width: 100%;
         background: #0072CE;
         box-shadow: 0px 0px 15px #0072CE;
         border-radius: 10px;
         font-style: normal;
         font-weight: bold;
-        font-size: 12px;
+        font-size: .75em;
         line-height: 16px;
-        text-align: center;
         color: #FFFFFF;
       }
 
