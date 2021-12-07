@@ -12,7 +12,7 @@ function Header() {
 
         <Container fluid>
 
-          <Navbar.Brand href="#"><Link to="/" className="text-decoration-none nav-link">LOGO</Link></Navbar.Brand>
+          <Navbar.Brand as={Link} to="/"  className="logo">LOGO</Navbar.Brand>
           <a href="#/" className="nav-link d-none d-lg-block"><i className="bi bi-search"></i>&nbsp; SEARCH</a>
 
           <Link to="/games" className="text-decoration-none nav-link">GAMES</Link>
