@@ -6,7 +6,7 @@ import Cards from "../components/Cards";
 import { useParams } from "react-router";
 import { useEffect, useState } from "react";
 import {Row, Container, Col} from "react-bootstrap"
-import {Helmet} from "react-helmet";
+import {Helmet} from "react-helmet-async";
 
 function Games() {
 

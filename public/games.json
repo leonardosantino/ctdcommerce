@@ -3,197 +3,390 @@
         "id": 1,
         "nome": "Cyberpunk 2077",
         "descricao": "Web Games / CD project Red",
-        "sinpse":"Cyberpunk 2077 is an open-world, action-adventure story set in Night City, a megalopolis obsessed with power, glamour and body modification. You play as V, a mercenary outlaw going after a one-of-a-kind implant that is the key to immortality.",
+        "sinopse":"Cyberpunk 2077 is an open-world, action-adventure story set in Night City, a megalopolis obsessed with power, glamour and body modification.",
         "console": "PS5",
         "valor": 199.90,
         "imagem": "/images/games/imgGame1.png",
         "categoria":{
-            "id": 1,
-            "nome":"shooter"
+            "id": 2,
+            "nome":"Shooter"
         }
     },
     {
         "id": 2,
         "nome": "Hitman III",
         "descricao": "IO Interactive",
-        "sinopse":" Agent 47 returns as a ruthless professional in HITMAN 3 for the most important contracts of his entire career. Embark on an intimate journey of darkness and hope in the dramatic conclusion to the World of Assassination trilogy. Death awaits.",
+        "sinopse":"Agent 47 returns as a ruthless professional in HITMAN 3 for the most important contracts of his entire career.",
         "console": "PS5",
         "valor": 113.90,
         "imagem": "/images/games/imgGame2.png",
         "categoria":{
-            "id": 2,
-            "nome":"action"
+            "id": 1,
+            "nome":"Action"
         }
     },
     {
         "id": 3,
         "nome": "Destruction Allstars",
         "descricao": "SIE / Lucid Games",
-        "sinopse": "Domine o fenômeno global Destruction AllStars – o “Esporte Espetacular” do horário nobre para motoristas perigosos! Domine a arte de combate intenso baseado em veículos através do tempo, táticas e habilidades para causar diversos danos colossais, destruição e devastação em arenas vibrantes em todo o mundo.",
+        "sinopse": "Domine o fenômeno global Destruction AllStars – o “Esporte Espetacular” do horário nobre para motoristas perigosos!",
         "console": "PS5",
         "valor": 99.50,
         "imagem": "/images/games/imgGame3.png",
         "categoria":{
             "id": 1,
-            "nome":"action"
+            "nome":"Action"
         }
     },
     {
         "id": 4,
         "nome": "Godfall",
         "descricao": "Gearbox / counterplay games",
-        "sinopse": "Salve Aperion. Você é o último dos cavaleiros Valorians, uma ordem de mestres do combate que usam armaduras lendárias chamadas Valorplates. Ascenda em Godfall, o primeiro RPG de ação looter-slasher com foco em combate corpo a corpo.",
+        "sinopse": "Salve Aperion. Você é o último dos cavaleiros Valorians, uma ordem de mestres do combate que usam armaduras lendárias chamadas Valorplates.",
         "console": "PS5",
         "valor": 75.90,
         "imagem": "/images/games/imgGame4.png",
         "categoria":{
             "id": 1,
-            "nome":"action"
+            "nome":"Action"
         }
     },
     {
         "id": 5,
         "nome": "FIFA 21",
         "descricao": "EA Sports",
-        "sinopse": "A união faz a força no EA SPORTS™ FIFA 21, com tecnologia Frostbite™. Seja nas ruas ou no estádio, o FIFA 21 oferece mais maneiras de jogar do que antes, incluindo a UEFA Champions League e a CONMEBOL Libertadores.",
+        "sinopse": "A união faz a força no EA SPORTS FIFA 21, com tecnologia Frostbite.",
         "console": "PS5",
         "valor": 298.90,
         "imagem": "/images/games/imgGame5.png",
         "categoria":{
             "id": 3,
-            "nome":"sports"
+            "nome":"Sports"
         }
     },
     {
         "id": 6,
         "nome": "Ghost of Tsushima: Legend...",
         "descricao": "SIE / Sucker Punch",
-        "sinopse": "Ghost of Tsushima: Legends é uma experiência de jogo multijogador cooperativo online* inspirada na mitologia japonesa. Escolha entre quatro classes – Samurai, Caçador, Ronin ou Assassino – e jogue com amigos ou via organização de partidas em missões de história para dois jogadores, missões de sobrevivência para quatro jogadores ou no novo Modo Rivais.",
+        "sinopse": "Ghost of Tsushima: Legends é uma experiência de jogo multijogador cooperativo inspirada na mitologia japonesa.",
         "console": "PS4",
         "valor": 104.90,
         "imagem": "/images/games/imgGame6.png",
         "categoria":{
             "id": 1,
-            "nome":"action"
+            "nome":"Action"
         }
     },
     {
         "id": 7,
         "nome": "Watch Dogs Legion",
         "descricao": "Ubisoft Entertainment",
-        "sinopse": "Constrói uma resistência com praticamente qualquer pessoa que encontras na rua, à medida que fazes hacking, te infiltras e lutas para recuperar a Londres de um futuro próximo que está à beira da ruína. Bem-vindo à Resistência.",
+        "sinopse": "Constrói uma resistência com praticamente qualquer pessoa que encontras na rua, à medida que fazes hacking, te infiltras e lutas para recuperar a Londres de um futuro próximo que está à beira da ruína.",
         "console": "PS4",
         "valor": 279.90,
         "imagem": "/images/games/imgGame7.png",
         "categoria":{
             "id": 1,
-            "nome":"action"
+            "nome":"Action"
         }
     },
     {
         "id": 8,
         "nome": "Cloudpunk",
         "descricao": "MERGE GAMES",
-        "sinopse": "Na dispersa cidade ‘cyberpunk’ de Nivalis, a sua primeira noite como motorista de entregas para a Cloudpunk fará com que conheça e interaja com um elenco diverso de seres humanos, IA e androides, cada um com a sua própria história para contar.",
+        "sinopse": "Na dispersa cidade ‘cyberpunk’ de Nivalis, a sua primeira noite como motorista de entregas para a Cloudpunk fará com que conheça e interaja com um elenco diverso de seres humanos.",
         "console": "PS4",
         "valor": 124.50,
         "imagem": "/images/games/imgGame8.png",
         "categoria":{
             "id": 1,
-            "nome":"action"
+            "nome":"Action"
         }
-    }
-    
-    ,
+    },
     {
         "id": 9,
         "nome": "Crysis Remastered",
         "descricao": "Crytek",
-        "sinopse":"O clássico jogo de tiro em primeira pessoa da Crytek está de volta com jogabilidade repleta de ação, mundo em sandbox e emocionantes batalhas épicas que você tanto adorou da primeira vez – agora com ray tracing, gráficos remasterizados otimizados para uma nova geração de hardware.",
+        "sinopse":"O clássico jogo de tiro em primeira pessoa da Crytek está de volta com jogabilidade repleta de ação, mundo em sandbox e emocionantes batalhas épicas que você tanto adorou da primeira vez.",
         "console": "PS4",
         "valor": 159.90,
         "imagem": "/images/games/imgGame9.png",
         "categoria":{
             "id": 1,
-            "nome":"action"
+            "nome":"Action"
         }
     },
     {
         "id": 10,
         "nome": "Far Cry 6",
         "descricao": "Ubisoft Entertainment",
-        "sinopse": "Esta é Yara, um paraíso tropical congelado no tempo. Far Cry 6 leva os jogadores a um mundo cheio de adrenalina durante uma revolução de guerrilha moderna. Junte-se à revolução e enfrente o regime opressor do ditador Antón Castillo e do filho Diego, interpretados pelas estrelas de Hollywood Giancarlo Esposito (O Mandaloriano, Breaking Bad) e Anthony Gonzalez (Viva - A Vida é uma Festa).",
+        "sinopse": "Esta é Yara, um paraíso tropical congelado no tempo. Far Cry 6 leva os jogadores a um mundo cheio de adrenalina durante uma revolução de guerrilha moderna.",
         "console": "PS5",
         "valor": 279.90,
         "imagem": "/images/games/imgGame10.png",
         "categoria":{
             "id": 2,
-            "nome":"shooter"
+            "nome":"Shooter"
         }
     },
     {
         "id": 11,
         "nome": "This Is The Zodiac Spea...",
         "descricao": "Klabater / Punch Punk Games",
-        "sinopse": "This is the Zodiac Speaking é um thriller psicológico de um jogador baseado em fatos reais, feito com base na história de Zodiac, um dos mais famosos assassinos em série jamais capturados. Ele mistura visuais vintage da Califórnia dos anos 70 e uma trilha sonora cinematográfica épica original com elementos de jogabilidade que incluem terror clássico, investigação, mecânica furtiva e vários finais a se descobrir.",
+        "sinopse": "This is the Zodiac Speaking é um thriller psicológico de um jogador baseado em fatos reais, feito com base na história de Zodiac, um dos mais famosos assassinos em série jamais capturados.",
         "console": "PS4",
         "valor": 69.90,
         "imagem": "/images/games/imgGame11.png",
         "categoria":{
-            "id": 1,
-            "nome":"shooter"
+            "id": 2,
+            "nome":"Shooter"
         }
     },
     {
         "id": 12,
         "nome": "NBA 2K21",
         "descricao": "2K Sports / Visual Concepts",
-        "sinopse": "O NBA 2K21 é o novo jogo da renomada franquia de sucesso NBA 2K, que traz uma experiência esportiva líder de mercado para o PlayStation®4. Com diversas melhorias gráficas e de jogabilidade, funcionalidades online competitivas e da comunidade, e modos de jogos variados e aprofundados, o NBA 2K21 oferece uma imersão sem igual no mundo e na cultura do basquete da NBA. Everything is Game.",
+        "sinopse": "O NBA 2K21 é o novo jogo da renomada franquia de sucesso NBA 2K, que traz uma experiência esportiva líder de mercado.",
         "console": "PS4",
         "valor": 249.90,
         "imagem": "/images/games/imgGame12.png",
         "categoria":{
             "id": 3,
-            "nome":"sports"
+            "nome":"Sports"
         }
     },
     {
         "id": 13,
         "nome": "Devil May Cry V: Special...",
         "descricao": "Capcom U.S.A., Inc.",
-        "sinopse": "DEVIL MAY CRY ESTÁ DE VOLTA, BABY!! O lendário estiloso jogo de ação está melhor do que nunca na versão definitiva deste premiado sucesso. Novidades: - Novo personagem jogável - o irmão e arquirival de Dante, Vergil - Modo Cavaleiro Negro Lendário - um modo de horda extremamente desafiador com uma quantidade enorme de inimigos - Modo Turbo - torne o jogo ainda mais intenso jogando em 1,2x a velocidade - Suporte a Ray-tracing - esta tecnologia gráfica da próxima geração traz o já quase fotorrealista mundo de DMC5 a um novo nível de esplendor visual sem igual - Modo de taxa de quadros alta - experimente uma ação incrivelmente fluida",
+        "sinopse": "O lendário estiloso jogo de ação está melhor do que nunca na versão definitiva deste premiado sucesso.",
         "console": "PS5",
         "valor": 164.90,
         "imagem": "/images/games/imgGame13.png",
         "categoria":{
-            "id": 2,
-            "nome":"action"
+            "id": 1,
+            "nome":"Action"
         }
     },
     {
         "id": 14,
         "nome": "Assassin's Creed Valhalla",
         "descricao": "Ubisoft",
-        "sinopse": "Baixe a versão de PS4™ deste jogo, sem custo extra, quando comprar a versão digital de PS5™ na PlayStation™Store. Em Assassin's Creed® Valhalla, torne-se Eivor, um invasor Viking lendário em busca de glória. Explore a Idade das Trevas da Inglaterra enquanto ataca seus inimigos, amplia seu assentamento e consolida seu poder político.",
+        "sinopse": "Torne-se Eivor, um invasor Viking lendário em busca de glória. Explore a Idade das Trevas da Inglaterra enquanto ataca seus inimigos, amplia seu assentamento e consolida seu poder político.",
         "console": "PS4",
         "valor": 279.90,
         "imagem": "/images/games/imgGame14.png",
         "categoria":{
-            "id": 2,
-            "nome":"action"
+            "id": 1,
+            "nome":"Action"
         }
     },
     {
         "id": 15,
         "nome": "Need For Speed Hot Pur...",
         "descricao": "EA Sports",
-        "sinopse": "Sinta a emoção da perseguição e a adrenalina da fuga em Need for Speed™ Hot Pursuit Remastered no PlayStation®4. Sinta a sensação extrema de velocidade, tanto como fora da lei quanto como policial, nos carros mais potentes do mundo. Supere a perseguição ou enfrente infratores com o armamento tático à sua disposição em uma experiência competitiva de corrida cheia de energia. Atualizado com visuais aprimorados, multijogador crossplay (incluindo a competição assíncrona fornecida por AutoLog), além de todo o conteúdo adicional dos DLCs: essa é a edição definitiva da aclamada estreia da Criterion Games em Need for Speed. É hora de reacender a perseguição.",
+        "sinopse": "Sinta a emoção da perseguição e a adrenalina da fuga. Sinta a sensação extrema de velocidade, tanto como fora da lei quanto como policial, nos carros mais potentes do mundo.",
         "console": "PS4",
         "valor": 198.90,
         "imagem": "/images/games/imgGame15.png",
         "categoria":{
+            "id": 3,
+            "nome":"Sports"
+        }
+    },
+    {
+        "id": 16,
+        "nome": "Apex Legends",
+        "descricao": "",
+        "sinopse": "Nesse jogo atmosférico em primeira pessoa, desenvolvido exclusivamente para a realidade virtual, o destino da humanidade depende de você – o último humano vivo.",
+        "console": "PS4",
+        "valor": 29.00,
+        "imagem": "/images/games/imgGame30.png",
+        "categoria": {
             "id": 2,
-            "nome":"sports"
+            "nome": "Shooter"
+        }
+    },
+    {
+        "id": 17,
+        "nome": "The Dark Pictures Anthology: Little Hope",
+        "descricao": "Bandai Namco / Supermassive",
+        "sinopse": "Quatro estudantes e um professor ficam presos na cidade abandonada de Little Hope. Encurralados por um nevoeiro impenetrável, eles tentam fugir desesperadamente enquanto têm visões horripilantes do passado.",
+        "console": "XBOX",
+        "valor": 149.50,
+        "imagem": "/images/games/imgGame16.png",
+        "categoria": {
+            "id": 1,
+            "nome": "Action"
+        }
+    },
+    {
+        "id": 18,
+        "nome": "Diablo III: Eternal Collection",
+        "descricao": "Blizzard Entertainment",
+        "sinopse": "Gerações de jogadores se digladiaram com as hordas demoníacas de Diablo, e agora chegou a sua vez de mergulhar no legado deste RPG de ação.",
+        "console": "XBOX",
+        "valor": 82.17,
+        "imagem": "/images/games/imgGame21.png",
+        "categoria": {
+            "id": 1,
+            "nome": "Action"
+        }
+    },
+    {
+        "id": 19,
+        "nome": "Mortal Shell",
+        "descricao": "PlayStack / Cold Symmetry ",
+        "sinopse": "Mortal Shell é um complexo RPG de ação implacável que testa a tua sanidade e resiliência num mundo despedaçado. Enquanto os restos da humanidade definham e apodrecem, inimigos zelosos deterioram-se nas ruínas.",
+        "console": "XBOX",
+        "valor": 120.00,
+        "imagem": "/images/games/imgGame22.png",
+        "categoria": {
+            "id": 1,
+            "nome": "Action"
+        }
+    },
+    {
+        "id": 20,
+        "nome": "Stranger Things",
+        "descricao": "Starbreeze / Behaviour",
+        "sinopse": "STRANGER THINGS é o novíssimo Capítulo de Dead by Daylight, trazendo ao jogo um novo Assassino e mais dois Sobreviventes.",
+        "console": "PS4",
+        "valor": 100.00,
+        "imagem": "/images/games/imgGame17.png",
+        "categoria": {
+            "id": 1,
+            "nome": "Action"
+        }
+    },
+    {
+        "id": 21,
+        "nome": "Sackboy: Uma Grande Aventura",
+        "descricao": "SIE / Sumo Digital",
+        "sinopse": "Encare desafios emocionantes e imprevisíveis enquanto explora terras distintas e feitas com todo o requinte, tudo com controles envolventes e que permitem que você se expresse.",
+        "console": "PS4",
+        "valor": 299.90,
+        "imagem": "/images/games/imgGame18.png",
+        "categoria": {
+            "id": 1,
+            "nome": "Action"
+        }
+    },
+    {
+        "id": 22,
+        "nome": "DEATH STRANDING Digital Deluxe Edition",
+        "descricao": "SIE / Kojima Productions",
+        "sinopse": "Carregando os vestígios desconectados do nosso futuro em suas mãos, ele embarca em uma jornada para reconectar o mundo despedaçado passo a passo.",
+        "console": "PS4",
+        "valor": 249.50,
+        "imagem": "/images/games/imgGame19.png",
+        "categoria": {
+            "id": 2,
+            "nome": "Shooter"
+        }
+    },
+    {
+        "id": 23,
+        "nome": "Days Gone",
+        "descricao": "SIE / Bend Studio",
+        "sinopse": "Days Gone é um jogo de ação e aventura em mundo aberto que se passa em um ambiente adverso dois anos após uma pandemia mundial devastadora.",
+        "console": "PS4",
+        "valor": 199.50,
+        "imagem": "/images/games/imgGame20.png",
+        "categoria": {
+            "id": 1,
+            "nome": "Action"
+        }
+    }, 
+    {
+        "id": 24,
+        "nome": "DOOM Eternal",
+        "descricao": "Bethesda / id Software",
+        "sinopse": "Os exércitos do Inferno invadiram a Terra. Torne-se o Slayer em uma campanha épica para um jogador e derrote demônios entre dimensões para impedir a derradeira destruição da humanidade.",
+        "console": "PS4",
+        "valor": 103.00,
+        "imagem": "/images/games/imgGame23.png",
+        "categoria": {
+            "id": 2,
+            "nome": "Shooter"
+        }
+    },
+    {
+        "id": 25,
+        "nome": "The Witcher 3: Wild Hunt – Complete Edition",
+        "descricao": "WB Games / CD Project Red",
+        "sinopse": "Torne-se um mercenário caçador de monstros e embarque em uma épica jornada para encontrar a criança da profecia, uma arma viva capaz de incríveis destruições.",
+        "console": "PS4",
+        "valor": 207.90,
+        "imagem": "/images/games/imgGame24.png",
+        "categoria": {
+            "id": 1,
+            "nome": "Action"
+        }
+    },
+    {
+        "id": 26,
+        "nome": "Rogue Company",
+        "descricao": "Hi-Rez Studios / First Watch",
+        "sinopse": "Equipe-se e mergulhe de cabeça em Rogue Company, o jogo de tiro de ação tático em terceira pessoa que coloca o destino do mundo em suas mãos.",
+        "console": "PS4",
+        "valor": 50.00,
+        "imagem": "/images/games/imgGame25.png",
+        "categoria": {
+            "id": 2,
+            "nome": "Shooter"
+        }
+    },
+    {
+        "id": 27,
+        "nome": "Fortnite",
+        "descricao": "Epic Games",
+        "sinopse": "Entre no Cubiverso para enfrentar monstros e encontrar armas especiais. Monte em criaturas e parta para a batalha. Participe do esforço comunitário de defesa contra os Cubos.",
+        "console": "PS4",
+        "valor": 50.00,
+        "imagem": "/images/games/imgGame26.png",
+        "categoria": {
+            "id": 2,
+            "nome": "Shooter"
+        }
+    },
+    {
+        "id": 28,
+        "nome": "Genshin Impact",
+        "descricao": "miHoYo",
+        "sinopse": "O vasto continente 'Teyvat', onde incontáveis criaturas se reproduziram e se reuniram, contém todos os fenômenos do céu e da terra.",
+        "console": "PS4",
+        "valor": 50.00,
+        "imagem": "/images/games/imgGame27.png",
+        "categoria": {
+            "id": 1,
+            "nome": "Action"
+        }
+    },
+    {
+        "id": 29,
+        "nome": "Rocket League",
+        "descricao": "Epic Games / Psyonix",
+        "sinopse": "Desbloqueie itens no Rocket Pass, suba nos rankings competitivos, participe de torneios, complete desafios, tire vantagem da progressão multiplataforma e muito mais!",
+        "console": "PS4",
+        "valor": 50.00,
+        "imagem": "/images/games/imgGame28.png",
+        "categoria": {
+            "id": 3,
+            "nome": "Sports"
+        }
+    },
+    {
+        "id": 30,
+        "nome": "Call of Duty: Warzone",
+        "descricao": "Activision",
+        "sinopse": "Pilhe as recompensas: Encontre caixas de suprimentos e conclua contratos para construir seu arsenal e obter uma vantagem tática.",
+        "console": "PS4",
+        "valor": 50.00,
+        "imagem": "/images/games/imgGame29.png",
+        "categoria": {
+            "id": 2,
+            "nome": "Shooter"
         }
     }
 ]

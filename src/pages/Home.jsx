@@ -4,7 +4,7 @@ import CarouselHome from "../components/CarouselHome";
 import CarouselCard from "../components/CarouselCard";
 import Collections from "../components/Collections";
 import KeyFeatures from "../components/KeyFeatures";
-import {Helmet} from "react-helmet";
+import {Helmet} from "react-helmet-async";
 
 function Home() {
         return (
