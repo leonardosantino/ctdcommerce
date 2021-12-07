@@ -63,7 +63,7 @@ function ProductDescription({ img, title, description, valor, id }) {
             </Row>
 
             <Row>
-              <Col className="py-3">
+              <Col className="py-3 card-btn">
                 <Button onClick={addToCart}>
                   <i className="bi bi-bag"></i> Add to cart
                 </Button>
