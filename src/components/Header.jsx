@@ -1,36 +1,56 @@
 import "../assets/styles/header.scss"
-import { NavLink, Link } from 'react-router-dom'
-import imag from './../assets/imgs/ctdoutrologo.png'
-import { useCount } from "../context/Count"
-
-import { Navbar, Nav, Container } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
+import { Container, Nav, Navbar, Offcanvas } from "react-bootstrap";
+import { useCount } from "../context/Count";
 
 function Header() {
-  const {count } = useCount()
+  const {count } = useCount();
 
   return (
     <>
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Navbar bg="dark" expand={false}>
+
         <Container fluid>
-          <Link to="/">
-            <img src={imag} alt="Logo site CTD Ecommerce" style={{ width: "4rem" }} />
+
+          <Navbar.Brand href="#"><Link to="/" className="text-decoration-none nav-link">LOGO</Link></Navbar.Brand>
+          <a href="#/" className="nav-link d-none d-lg-block"><i className="bi bi-search"></i>&nbsp; SEARCH</a>
+
+          <Link to="/games" className="text-decoration-none nav-link">GAMES</Link>
+          <Link to="/about" className="text-decoration-none nav-link d-none d-lg-block">ABOUT</Link>
+
+          <Link to="/cart" className="text-decoration-none nav-link">
+            
+          <span className="cart-icon">
+          {count > 0 &&(<span className="cart-number">{count}</span>)}
+          </span>
+          &nbsp; CART
           </Link>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="me-auto">
-              <NavLink to="/games" className="nav-link">Games</NavLink>
-              <NavLink to="/about" className="nav-link">About</NavLink>
-            </Nav>
-          </Navbar.Collapse>
-          <Nav className="d-flex flex-grow-1 justify-content-around flex-row">
-            <NavLink to="/search" className="nav-link"><i className="bi bi-search"></i>&nbsp; SEARCH</NavLink>
-            <NavLink to="/user" className="nav-link"><i className="bi bi-person-circle"></i>&nbsp; SIGN IN</NavLink>
-            <NavLink to="/cart" className="nav-link"><span className="cart-icon">{count > 0 &&(<span className="cart-number">{count}</span>)}</span>&nbsp; Cart
-            </NavLink>
-          </Nav>
+
+          <a href="#/" className="nav-link d-none d-lg-block"><i className="bi bi-person-circle"></i>&nbsp; SIGN IN</a>
+
+          <Navbar.Toggle aria-controls="offcanvasNavbar" className="d-lg-none" />
+
+          <Navbar.Offcanvas id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" placement="end" >
+
+            <Offcanvas.Header closeButton>
+              <Offcanvas.Title id="offcanvasNavbarLabel">CTD Commerce</Offcanvas.Title>
+            </Offcanvas.Header>
+
+            <Offcanvas.Body>
+              <Nav className="justify-content-end text-center flex-grow-1 pe-3">
+              <a href="#/" className="text-decoration-none nav-link "><i className="bi bi-search"></i>&nbsp; SEARCH</a>
+              <a href="#/" className="text-decoration-none nav-link "><i className="bi bi-person-circle"></i>&nbsp; SIGN IN</a>
+
+              <Link to="/about" className="text-decoration-none nav-link ">ABOUT</Link>
+
+              </Nav>
+            </Offcanvas.Body>
+
+          </Navbar.Offcanvas>
+
         </Container>
-      </Navbar>
-    </>
+
+      </Navbar>    </>
   );
 }
 export default Header;

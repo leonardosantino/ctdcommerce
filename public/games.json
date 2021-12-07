@@ -87,6 +87,7 @@
         "id": 8,
         "nome": "Cloudpunk",
         "descricao": "Maple Whispering / Ion Lands",
+        "sinopse": " Text logo",
         "console": "PS4",
         "valor": 129.90,
         "imagem": "/images/games/imgGame8.png",
@@ -94,7 +95,9 @@
             "id": 1,
             "nome":"action"
         }
-    },
+    }
+    
+    ,
     {
         "id": 9,
         "nome": "Crysis Remastered",
