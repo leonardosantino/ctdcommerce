@@ -5,7 +5,7 @@ import {useEffect} from "react";
 import {Button, Card} from "react-bootstrap";
 
 function Cards({img, title, description, console, valor, id}) {
-    const {count, setCount, product, setProduct} = useCount();
+    const {count, product, setProduct} = useCount();
 
     useEffect(() => {
 
@@ -33,7 +33,7 @@ function Cards({img, title, description, console, valor, id}) {
                 valorproduct: valor
             })
             setProduct(tempProduct)
-            setCount(count + 1)
+
 
         } else {
             let tempProduct = [...product];
