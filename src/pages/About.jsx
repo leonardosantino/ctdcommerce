@@ -63,8 +63,8 @@ function About() {
 
                 <Carousel indicators={false}>
 
-                    {integrantes.map(({img, nome, sobre, contato, email}) =>
-                        <Carousel.Item interval={2000}>
+                    {integrantes.map(({img, nome, sobre, contato, email},index) =>
+                        <Carousel.Item interval={2000} key={index}>
                             <Container className="d-flex justify-content-center align-items-center">
                                 <Persona img={img} nome={nome} sobre={sobre} contato={contato} email={email}/>
                                 <div id="gradient" className="card-img"></div>

@@ -21,8 +21,6 @@ function DescriptionProduct() {
     })
     return
   }, [])
-
-
   return (
     <>
       <Header />
@@ -33,7 +31,7 @@ function DescriptionProduct() {
             let product = null
 
             if (data.id === parseInt(id)) {
-              product = <div key={index}><ProductDescription img={data.imagem} title={data.nome} description={data.descricao} valor={data.valor.toLocaleString(undefined, {minimumFractionDigits: 2,maximumFractionDigits: 2})} /></div>
+              product = <div key={index}><ProductDescription id={data.id} img={data.imagem} title={data.nome} description={data.descricao} valor={data.valor.toLocaleString(undefined, {minimumFractionDigits: 2,maximumFractionDigits: 2})} /></div>
             }
             return product
           })

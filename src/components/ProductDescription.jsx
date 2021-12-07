@@ -1,9 +1,48 @@
 import "../assets/styles/produtodescription.scss"
-
+import { useEffect } from "react";
+import { useCount } from "../context/Count";
 import { Container, Row, Col, Image, Button } from 'react-bootstrap'
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
 
-function ProductDescription({ img, title, description, valor }) {
+function ProductDescription({ img, title, description, valor, id }) {
+  const { count, setCount, product, setProduct } = useCount();
+
+  useEffect(() => {
+
+    return
+  }, [])
+
+  function addToCart() {
+
+    let productindex = null;
+
+    const findproduct = product.find((element, index) => {
+      productindex = index
+      return element.idproduct === id
+    });
+
+    if (findproduct === undefined) {
+
+      let tempProduct = [...product];
+      tempProduct.push({
+        idproduct: id,
+        quantity: 1,
+        imgproduct: img,
+        titleproduct: title,
+        descriptionproduct: description,
+        valorproduct: valor
+      })
+      setProduct(tempProduct)
+      setCount(count + 1)
+
+    } else {
+      let tempProduct = [...product];
+      let tempElement = { ...tempProduct[productindex] }
+      tempElement.quantity += 1
+      tempProduct[productindex] = tempElement
+      setProduct(tempProduct)
+    }
+  }
   return (
     <>
       <Helmet>
@@ -41,7 +80,7 @@ function ProductDescription({ img, title, description, valor }) {
             <Row >
 
               <Col className="py-3">
-                <Button>
+                <Button onClick={addToCart}>
                   <i className="bi bi-bag"></i> Add to cart
                 </Button>
               </Col>
@@ -55,15 +94,15 @@ function ProductDescription({ img, title, description, valor }) {
 
           <Row >
             <Col className="py-2 product-description-details">
-            Details
+              Details
             </Col>
-            
+
           </Row>
           <Row>
             <Col className="py-2 product-description-text">
-            {description}
+              {description}
             </Col>
-            
+
           </Row>
 
         </Row>

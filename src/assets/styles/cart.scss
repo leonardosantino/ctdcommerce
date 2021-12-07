@@ -4,6 +4,18 @@
     height: 89vh;
     padding-top: .75em;
 
+    .bi-heart{
+        &:hover{
+            color: pink;
+        }
+    }
+    .bi-pencil-square{
+        &:hover{color: blue;}
+    }
+    .bi-x-square{
+        &:hover{color: red;}
+    }
+
     .cart-product{
 
         thead{
