@@ -4,7 +4,7 @@ import "../assets/styles/about.scss"
 
 import 'bootstrap/dist/css/bootstrap.css';
 import {Carousel, Container} from 'react-bootstrap';
-import {Helmet} from "react-helmet";
+import {Helmet} from "react-helmet-async";
 
 function About() {
 

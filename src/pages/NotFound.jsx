@@ -1,7 +1,7 @@
 import './../assets/styles/notFound.scss';
 import { Container } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
-import {Helmet} from "react-helmet";
+import {Helmet} from "react-helmet-async";
 
 function NotFound() {
     return (

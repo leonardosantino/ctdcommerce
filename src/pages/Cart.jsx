@@ -3,7 +3,7 @@ import { Table, Row, Col, Container, Button } from "react-bootstrap";
 import CartProduct from "../components/CartProduct";
 import Header from "../components/Header"
 import { useCount } from "../context/Count";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 function Cart() {
     const { product } = useCount();
@@ -40,8 +40,6 @@ function Cart() {
                                 <tbody>
                                     {
                                         product.map((item, index) => {
-                                            //alterar função para react kk
-
                                             return <tr key={index}><CartProduct img={item.imgproduct}
                                                 description={item.titleproduct + " " + item.descriptionproduct}
                                                 valor={item.valorproduct.toFixed(2)}
