@@ -37,7 +37,10 @@ function ProductDescription({ img, title, description, valor, id, sinopse }) {
               </Col>
             </Row>
             <Row>
-              <Col className="py-2 product-description-valor">R$ {valor}</Col>
+              <Col className="py-2 product-description-valor">R$ {valor.toLocaleString(undefined, {
+                minimumFractionDigits: 2,
+                maximumFractionDigits: 2,
+              })}</Col>
             </Row>
 
             <Row>

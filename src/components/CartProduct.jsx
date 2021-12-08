@@ -15,7 +15,10 @@ function CartProduct({img, description, valor, quantity, idproduct, isLiked,}) {
         <span className="d-none d-md-block ">{description}</span>
       </th>
 
-      <th className="cart-text-normal">R$ {valor}</th>
+      <th className="cart-text-normal">R$ {valor.toLocaleString(undefined, {
+                minimumFractionDigits: 2,
+                maximumFractionDigits: 2,
+              })}</th>
 
       <th className="cart-col-quantity cart-text-normal">
         <input type="number" name="cart-quantity" id="cart-quantity" min="1" defaultValue={quantity} disabled={true} />
