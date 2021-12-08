@@ -30,7 +30,7 @@ function CarouselCard() {
               <Col xs="auto">
                 <Cards img={imgCard7} title={"Watch Dogs Legion"} description={"Ubisoft"} console={"PS4"} valor={89.90} id={7} />
               </Col>
-              <Col xs="auto">
+              <Col xs="auto py-1">
                 <Cards img={imgCard8} title={"Cloudpunk"} description={"Maple Whispering / Ion Lands"} console={"PS5"} valor={109.90} id={8} />
               </Col>
               <Col xs="auto">
@@ -43,7 +43,7 @@ function CarouselCard() {
               <Col xs="auto">
                 <Cards img={imgCard10} title={"Far Cry 6"} description={"Ubisoft"} console={"PS5"} valor={129.90} id={10} />
               </Col>
-              <Col xs="auto">
+              <Col xs="auto py-1">
                 <Cards img={imgCard11} title={"This Is The Zodiac"} description={"Klabater / Punch Punk Games"} console={"PS4"} valor={109.90} id={11} />
               </Col>
               <Col xs="auto">

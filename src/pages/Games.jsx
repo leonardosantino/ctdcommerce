@@ -50,13 +50,13 @@ function Games() {
                                 let product = null
                                 if (data.categoria?.nome === category) {
                                     product =
-                                        <Col xs="auto" key={index}>
+                                        <Col xs="auto py-1" key={index}>
                                             <Cards img={data.imagem} title={data.nome} description={data.descricao}
                                                    console={data.console} valor={data.valor} id={data.id}/>
                                         </Col>
                                 } else if (!category) {
                                     product =
-                                        <Col xs="auto" key={index}>
+                                        <Col xs="auto py-1" key={index}>
                                             <Cards img={data.imagem} title={data.nome} description={data.descricao}
                                                    console={data.console} valor={data.valor} id={data.id}/>
                                         </Col>
