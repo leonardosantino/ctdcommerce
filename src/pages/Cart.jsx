@@ -48,6 +48,7 @@ function Cart() {
                           valor={item.valorproduct.toFixed(2)}
                           quantity={item.quantity}
                           idproduct={item.idproduct}
+                          isLiked={item.isLiked}
                         />
                       </tr>
                     );

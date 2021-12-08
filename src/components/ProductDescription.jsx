@@ -5,7 +5,7 @@ import { Container, Row, Col, Image, Button } from "react-bootstrap";
 import { Helmet } from "react-helmet";
 
 function ProductDescription({ img, title, description, valor, id }) {
-  const { count, product, setProduct } = useCount();
+  const { product, setProduct } = useCount();
 
   useEffect(() => {
     return;

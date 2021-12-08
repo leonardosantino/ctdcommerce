@@ -1,8 +1,14 @@
 import { Image } from "react-bootstrap";
 import { useCount } from "../context/Count";
-import {isDisabled} from "bootstrap/js/src/util";
 
-function CartProduct({ img, description, valor, quantity, idproduct }) {
+function CartProduct({
+  img,
+  description,
+  valor,
+  quantity,
+  idproduct,
+  isLiked,
+}) {
   const { setProduct, product } = useCount();
 
   return (
@@ -23,13 +29,27 @@ function CartProduct({ img, description, valor, quantity, idproduct }) {
           id="cart-quantity"
           min="1"
           defaultValue={quantity}
-        disabled={true}/>
+          disabled={true}
+        />
       </th>
 
       {/* <th className="cart-text-normal">R$ 390,90</th> */}
       <th className="cart-text-normal text-center">
-        <i className="bi bi-heart btn" />
-        <i className="bi bi-pencil-square btn" />
+        <i
+          className={`bi bi-heart btn ${isLiked ? "is-liked" : ""}`}
+          onClick={() => {
+            const newProducts = product.map((el) => {
+              if (el.idproduct !== idproduct) return el;
+              return {
+                ...el,
+                isLiked: !el.isLiked,
+              };
+            });
+
+            setProduct(newProducts);
+          }}
+        />
+        {/*<i className="bi bi-pencil-square btn" />*/}
         <i
           className="bi bi-x-square btn"
           onClick={() => {
