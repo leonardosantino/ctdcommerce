@@ -71,7 +71,7 @@ function Cart() {
                 <thead>
                   <tr>
                     <th colSpan="2" className="text-center">
-                      Checkount
+                      Checkout
                     </th>
                   </tr>
                 </thead>
