@@ -2,25 +2,22 @@ import { createContext, useContext, useState } from "react";
 
 const CountContext = createContext();
 
-export default function CountProvider({children}) {
+export default function CountProvider({ children }) {
+  const [product, setProduct] = useState([]);
 
-    const [count, setCount] = useState(0);
-    const [product, setProduct] = useState([]);
-    
-    return(
-
-        <CountContext.Provider value={{product, setProduct, count, setCount}}>
-            {children}
-        </CountContext.Provider>
-
-    );
+  return (
+    <CountContext.Provider
+      value={{ product, setProduct, count: product.length }}
+    >
+      {children}
+    </CountContext.Provider>
+  );
 }
 
-export  function useCount() {
+export function useCount() {
+  const context = useContext(CountContext);
+  const { count, setCount } = context;
+  const { product, setProduct } = context;
 
-    const context = useContext(CountContext)
-    const {count, setCount} = context;
-    const {product, setProduct} = context;
-
-    return {count, setCount, product, setProduct}
+  return { count, setCount, product, setProduct };
 }

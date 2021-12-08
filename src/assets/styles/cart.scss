@@ -1,86 +1,85 @@
-.cart{
-    font-family: 'Oswald', sans-serif;
-    background-color: white;
-    height: 89vh;
-    padding-top: .75em;
+.cart {
+  font-family: "Oswald", sans-serif;
+  background-color: white;
+  height: 89vh;
+  padding-top: 0.75em;
 
-    .bi-heart{
-        &:hover{
-            color: pink;
+  .bi-heart {
+    &:hover {
+      color: pink;
+    }
+
+    &.is-liked {
+      color: red;
+    }
+  }
+  .bi-pencil-square {
+    &:hover {
+      color: blue;
+    }
+  }
+  .bi-x-square {
+    &:hover {
+      color: red;
+    }
+  }
+
+  .cart-product {
+    thead {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 27px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      color: #828282;
+      border-bottom: 2px solid #c4c4c4;
+    }
+
+    tr {
+      th {
+        input {
+          max-width: 3em;
         }
-    }
-    .bi-pencil-square{
-        &:hover{color: blue;}
-    }
-    .bi-x-square{
-        &:hover{color: red;}
-    }
-
-    .cart-product{
-
-        thead{
-
-    
-            font-style: normal;
-            font-weight: 500;
-            font-size: 18px;
-            line-height: 27px;
-            letter-spacing: 0.5px;
-            text-transform: uppercase;
-            color: #828282;
-            border-bottom: 2px solid #C4C4C4;
-        }
-        
-        tr{
-            th{
-                input{
-                    max-width: 3em;
-                }
-                
-            }
-            .cart-col-img{
-                max-width: 5em;
-    
-            }
-            .cart-col-desc{
-    
-                font-style: normal;
-                font-weight: 500;
-                font-size: .75em;
-                line-height: 27px;
-                letter-spacing: 0.5px;
-                text-transform: uppercase;
-                color: #000000;
-            }
-            .cart-text-normal{
-                font-size: .75em;
-                
-            }
-    
-        }
-    }
-    .cart-checkout{
-        background: #F0F2F2;
-        /* Divider */
-
-        border: 2px solid #C4C4C4;
-        box-sizing: border-box;
-        .checkout-button{
-            width: 100%;
-            border: none;
-        }
-    }
-    .checkout-col-button{
-        background-color: black;
-    }
-    .checkount-col-check{
+      }
+      .cart-col-img {
+        max-width: 5em;
+      }
+      .cart-col-desc {
         font-style: normal;
         font-weight: 500;
-        font-size: 14px;
-        line-height: 21px;
+        font-size: 0.75em;
+        line-height: 27px;
         letter-spacing: 0.5px;
         text-transform: uppercase;
-        color: #828282;
+        color: #000000;
+      }
+      .cart-text-normal {
+        font-size: 0.75em;
+      }
     }
+  }
+  .cart-checkout {
+    background: #f0f2f2;
+    /* Divider */
 
+    border: 2px solid #c4c4c4;
+    box-sizing: border-box;
+    .checkout-button {
+      width: 100%;
+      border: none;
+    }
+  }
+  .checkout-col-button {
+    background-color: black;
+  }
+  .checkount-col-check {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #828282;
+  }
 }
