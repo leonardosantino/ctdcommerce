@@ -21,6 +21,7 @@ function DescriptionProduct() {
     })
     return
   }, [])
+  
   return (
     <>
       <Header />

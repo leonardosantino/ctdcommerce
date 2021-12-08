@@ -1,6 +1,6 @@
 import "../assets/styles/carouselcard.scss"
 import Cards from "./Cards";
-
+import { useEffect } from "react";
 import 'bootstrap/dist/css/bootstrap.css';
 import { Container, Carousel, Row, Col } from 'react-bootstrap';
 
@@ -12,6 +12,11 @@ const imgCard11 = "images/games/imgGame11.png"
 const imgCard12 = "images/games/imgGame12.png"
 
 function CarouselCard() {
+
+  useEffect(() => {
+    return;
+  }, []);
+  
   return (
     <>
       <Container fluid>

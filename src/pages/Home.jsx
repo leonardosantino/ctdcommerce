@@ -4,28 +4,26 @@ import CarouselHome from "../components/CarouselHome";
 import CarouselCard from "../components/CarouselCard";
 import Collections from "../components/Collections";
 import KeyFeatures from "../components/KeyFeatures";
-import {Helmet} from "react-helmet-async";
+import { Helmet } from "react-helmet-async";
 
 function Home() {
         return (
                 <>
-                    <Helmet>
-                        <title>CTD GAMES</title>
-                    </Helmet>
+                        <Helmet>
+                                <title>CTD GAMES</title>
+                        </Helmet>
+
                         <Header currentlyPath="home" />
                         <CarouselHome />
                         <div className="my-5">
-                        <CarouselCard />
+                                <CarouselCard />
                         </div>
                         <div className="my-5">
-                        <KeyFeatures />
+                                <KeyFeatures />
                         </div>
                         <div className="my-5">
-                        <Collections /> 
+                                <Collections />
                         </div>
-                        
-                        
-                        
                 </>
         );
 }

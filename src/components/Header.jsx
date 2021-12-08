@@ -34,7 +34,7 @@ function Header() {
           <Navbar.Offcanvas id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" placement="end" >
 
             <Offcanvas.Header closeButton>
-              <Offcanvas.Title id="offcanvasNavbarLabel">CTD Commerce</Offcanvas.Title>
+              <Offcanvas.Title id="offcanvasNavbarLabel">CTD GAMES</Offcanvas.Title>
             </Offcanvas.Header>
 
             <Offcanvas.Body>

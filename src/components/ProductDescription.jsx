@@ -2,6 +2,7 @@ import "../assets/styles/produtodescription.scss";
 import { useEffect } from "react";
 import { useCount } from "../context/Count";
 import { Container, Row, Col, Image, Button } from "react-bootstrap";
+import { addToCart } from "../context/Count";
 import { Helmet } from "react-helmet-async";
 
 function ProductDescription({ img, title, description, valor, id, sinopse }) {
@@ -11,33 +12,10 @@ function ProductDescription({ img, title, description, valor, id, sinopse }) {
     return;
   }, []);
 
-  function addToCart() {
-    let productindex = null;
-
-    const findproduct = product.find((element, index) => {
-      productindex = index;
-      return element.idproduct === id;
-    });
-
-    if (findproduct === undefined) {
-      let tempProduct = [...product];
-      tempProduct.push({
-        idproduct: id,
-        quantity: 1,
-        imgproduct: img,
-        titleproduct: title,
-        descriptionproduct: description,
-        valorproduct: valor,
-      });
-      setProduct(tempProduct);
-    } else {
-      let tempProduct = [...product];
-      let tempElement = { ...tempProduct[productindex] };
-      tempElement.quantity += 1;
-      tempProduct[productindex] = tempElement;
-      setProduct(tempProduct);
-    }
+  function handleClick() {
+    addToCart(product, setProduct, id, img, title, description, valor);
   }
+
   return (
     <>
       <Helmet>
@@ -64,7 +42,7 @@ function ProductDescription({ img, title, description, valor, id, sinopse }) {
 
             <Row>
               <Col className="py-3 card-btn">
-                <Button onClick={addToCart}>
+                <Button onClick={handleClick}>
                   <i className="bi bi-bag"></i> Add to cart
                 </Button>
               </Col>

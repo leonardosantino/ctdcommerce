@@ -3,40 +3,17 @@ import { NavLink } from "react-router-dom";
 import { useCount } from "../context/Count";
 import { useEffect } from "react";
 import { Button, Card } from "react-bootstrap";
+import { addToCart } from "../context/Count";
 
 function Cards({ img, title, description, console, valor, id }) {
   const { product, setProduct } = useCount();
-
+  
   useEffect(() => {
     return;
   }, []);
 
-  function addToCart() {
-    let productindex = null;
-
-    const findproduct = product.find((element, index) => {
-      productindex = index;
-      return element.idproduct === id;
-    });
-
-    if (findproduct === undefined) {
-      let tempProduct = [...product];
-      tempProduct.push({
-        idproduct: id,
-        quantity: 1,
-        imgproduct: img,
-        titleproduct: title,
-        descriptionproduct: description,
-        valorproduct: valor,
-      });
-      setProduct(tempProduct);
-    } else {
-      let tempProduct = [...product];
-      let tempElement = { ...tempProduct[productindex] };
-      tempElement.quantity += 1;
-      tempProduct[productindex] = tempElement;
-      setProduct(tempProduct);
-    }
+  function handleClick() {
+    addToCart(product, setProduct, id, img, title, description, valor);
   }
 
   return (
@@ -57,7 +34,7 @@ function Cards({ img, title, description, console, valor, id }) {
             <span className="consol">{console}</span>
           </div>
           <div className="card-btn my-2">
-            <Button onClick={addToCart} variant="primary">
+            <Button onClick={handleClick} variant="primary">
               <i className="bi bi-bag"></i>&nbsp; R${" "}
               {valor.toLocaleString(undefined, {
                 minimumFractionDigits: 2,

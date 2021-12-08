@@ -1,14 +1,8 @@
 import { Image } from "react-bootstrap";
 import { useCount } from "../context/Count";
 
-function CartProduct({
-  img,
-  description,
-  valor,
-  quantity,
-  idproduct,
-  isLiked,
-}) {
+function CartProduct({img, description, valor, quantity, idproduct, isLiked,}) {
+  
   const { setProduct, product } = useCount();
 
   return (

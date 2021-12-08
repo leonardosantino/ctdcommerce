@@ -1,7 +1,5 @@
 import imgCarousel1 from "../assets/imgs/imgHomemAranha.png"
 import imgCarousel2 from "../assets/imgs/imgAssassinsCreed.png"
-import "../assets/styles/carousel.scss"
-
 import 'bootstrap/dist/css/bootstrap.css';
 import { Carousel } from 'react-bootstrap';
 
