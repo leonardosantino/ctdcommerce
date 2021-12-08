@@ -19,7 +19,7 @@ function Cart() {
   return (
     <>
       <Helmet>
-        <title>CTD Ecommerce | Cart </title>
+        <title>CTD GAMES | Cart </title>
       </Helmet>
       <Header />
       <main className="cart">

@@ -4,9 +4,14 @@
             font-family: 'Oswald', sans-serif;
             font-style: normal;
             font-weight: bold;
-            font-size: 1em;
+            font-size: .75em;
             line-height: 1em;
             color: #FFFFFF !important;
+            border-radius: 2em;
         }
+    }
+    .games-filter-span{
+        border: solid 1px white;
+        border-radius: 2em;
     }
 }

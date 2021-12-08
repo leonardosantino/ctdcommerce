@@ -2,9 +2,9 @@ import "../assets/styles/produtodescription.scss";
 import { useEffect } from "react";
 import { useCount } from "../context/Count";
 import { Container, Row, Col, Image, Button } from "react-bootstrap";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
-function ProductDescription({ img, title, description, valor, id }) {
+function ProductDescription({ img, title, description, valor, id, sinopse }) {
   const { product, setProduct } = useCount();
 
   useEffect(() => {
@@ -41,7 +41,7 @@ function ProductDescription({ img, title, description, valor, id }) {
   return (
     <>
       <Helmet>
-        <title>CTD Ecommerce | {title}</title>
+        <title>CTD GAMES | {title}</title>
       </Helmet>
       <Container fluid className="product-description">
         <Row>
@@ -77,7 +77,7 @@ function ProductDescription({ img, title, description, valor, id }) {
             <Col className="py-2 product-description-details">Details</Col>
           </Row>
           <Row>
-            <Col className="py-2 product-description-text">{description}</Col>
+            <Col className="py-2 product-description-text">{sinopse}</Col>
           </Row>
         </Row>
       </Container>

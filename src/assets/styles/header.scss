@@ -3,7 +3,9 @@ nav{
     font-family: 'Oswald', sans-serif !important;
 
     .navbar-toggler{
-        background-color: #0072CE;
+        background-color: rgba(0, 0, 0, 0.212);
+        box-shadow: none !important;
+        border: none !important;
     }
 
     .nav-link{
@@ -39,52 +41,6 @@ nav{
 
     }
     .logo{
-        font-style: normal;
-        font-weight: bold;
-        font-size: 1em;
-        line-height: 1em;
-        color: #FFFFFF !important;
-
+        max-width: 3em;
     }
 }
-// nav {
-//     font-family: 'Oswald', sans-serif;
-//     color: white !important;
-//     background: #000000;
-//     .navbar-brand{
-//        color: white !important;
-//     }
-//     .offcanvas-body{
-//         background: #000000;
-//     }
-//     .nav-link{
-//         font-style: normal;
-//         font-weight: 600;
-//         font-size: 14px;
-//         line-height: 21px;
-//         text-transform: uppercase;
-//         color: #FFFFFF !important;
-//     }
-
-//     .active{
-//         box-shadow: 0px 1px;
-//         color: #EB5757 !important;
-//     }
-//     .cart-icon{
-//         background-image: url(../imgs/bag.svg);
-//         background-size: contain;
-//         background-position: center;
-//         background-repeat: no-repeat;
-//         padding: .75em;
-
-
-//         .cart-number{
-//             font-size: .5em;
-//             color: #FFFFFF !important;
-//             padding: 0 .5em;
-//             border-radius: 25%;
-//             background-color: #EB5757 !important;
-//         }
-//     }
-
-// }

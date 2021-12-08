@@ -10,7 +10,7 @@
     .card-title {
       font-style: normal;
       font-weight: 800;
-      font-size: 0.85em;
+      font-size: .95em;
       line-height: 16px;
       color: #ffffff;
       background: linear-gradient(
@@ -19,7 +19,7 @@
         lightblue 50%,
         royalblue 50%
       );
-      -webkit-background-clip: text;
+      background-clip: text;
       -webkit-text-fill-color: transparent;
       background-size: 200% 100%;
       background-position: 100%;
@@ -33,7 +33,7 @@
     .card-text {
       font-style: normal;
       font-weight: 600;
-      font-size: 0.5em;
+      font-size: 0.70em;
       line-height: 14px;
       color: #c4c4c4;
     }
@@ -61,14 +61,15 @@
         font-size: 0.75em;
         line-height: 16px;
         color: #ffffff;
+        transition: all 0.25s;
 
         &:active {
           animation: changeColor 1s infinite;
         }
 
         &:hover {
-          transform: scale(1.1);
-          transition: all 0.5s;
+          transform: scale(1.05);
+          
         }
       }
     }

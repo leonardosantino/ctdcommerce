@@ -28,17 +28,19 @@ function Games() {
     return (
         <>
             <Helmet>
-                <title>CTD Ecommerce | {!category ? 'game' : category}</title>
+                <title>CTD GAMES | {!category ? 'game' : category}</title>
             </Helmet>
             <Header/>
             <main className="games">
                 <Container fluid>
                     <Row>
-                        <Col className="d-flex flex-wrap justify-content-center p-5 gap-3 games-filter">
-                            <NavLink className="btn text-decoration-none" to="/games">ALL</NavLink>
-                            <NavLink className="btn text-decoration-none" to="/games/category/Action">ACTION</NavLink>
-                            <NavLink className="btn text-decoration-none" to="/games/category/Shooter">SHOOTER</NavLink>
+                        <Col className="d-flex flex-wrap justify-content-center p-3 gap-3 games-filter">
+                            <span className="games-filter-span">
+                            <NavLink className="btn text-decoration-none" to="/games">ALL &nbsp;|</NavLink>
+                            <NavLink className="btn text-decoration-none" to="/games/category/Action">ACTION &nbsp;|</NavLink>
+                            <NavLink className="btn text-decoration-none" to="/games/category/Shooter">SHOOTER &nbsp;|</NavLink>
                             <NavLink className="btn text-decoration-none" to="/games/category/Sports">SPORTS</NavLink>
+                            </span>
                         </Col>
                     </Row>
 

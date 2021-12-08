@@ -10,7 +10,7 @@ function Home() {
         return (
                 <>
                     <Helmet>
-                        <title>CTD Ecommerce</title>
+                        <title>CTD GAMES</title>
                     </Helmet>
                         <Header currentlyPath="home" />
                         <CarouselHome />

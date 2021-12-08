@@ -31,7 +31,7 @@ function DescriptionProduct() {
             let product = null
 
             if (data.id === parseInt(id)) {
-              product = <div key={index}><ProductDescription id={data.id} img={data.imagem} title={data.nome} description={data.descricao} valor={data.valor} /></div>
+              product = <div key={index}><ProductDescription id={data.id} img={data.imagem} title={data.nome} description={data.descricao} valor={data.valor} sinopse={data.sinopse}/></div>
             }
             return product
           })

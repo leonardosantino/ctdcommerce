@@ -1,18 +1,19 @@
 import "../assets/styles/header.scss"
 import { Link } from 'react-router-dom'
-import { Container, Nav, Navbar, Offcanvas } from "react-bootstrap";
+import { Container, Nav, Navbar, Offcanvas, Image } from "react-bootstrap";
 import { useCount } from "../context/Count";
+import logo from "../assets/imgs/logorobot.png"
 
 function Header() {
   const {count } = useCount();
 
   return (
     <>
-      <Navbar bg="dark" expand={false}>
+      <Navbar bg="dark" expand={false} className="py-0 my-0">
 
-        <Container fluid>
+        <Container fluid className="py-0 my-0">
 
-          <Navbar.Brand as={Link} to="/"  className="logo">LOGO</Navbar.Brand>
+          <Navbar.Brand as={Link} to="/"  className="logo"><Image src={logo} fluid /></Navbar.Brand>
           <a href="#/" className="nav-link d-none d-lg-block"><i className="bi bi-search"></i>&nbsp; SEARCH</a>
 
           <Link to="/games" className="text-decoration-none nav-link">GAMES</Link>

@@ -7,7 +7,7 @@ function NotFound() {
     return (
         <>
             <Helmet>
-                <title>CTD Ecommerce | Not Found</title>
+                <title>CTD GAMES | Not Found</title>
             </Helmet>
             {/* <!-- Make sure to change 'href' attribute (Go Home) in Line 110 --> */}
             <Container fluid>

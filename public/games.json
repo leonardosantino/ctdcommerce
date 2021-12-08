@@ -66,7 +66,7 @@
     },
     {
         "id": 6,
-        "nome": "Ghost of Tsushima: Legend...",
+        "nome": "Ghost of Tsushima",
         "descricao": "SIE / Sucker Punch",
         "sinopse": "Ghost of Tsushima: Legends é uma experiência de jogo multijogador cooperativo inspirada na mitologia japonesa.",
         "console": "PS4",
@@ -131,7 +131,7 @@
     },
     {
         "id": 11,
-        "nome": "This Is The Zodiac Spea...",
+        "nome": "This Is The Zodiac",
         "descricao": "Klabater / Punch Punk Games",
         "sinopse": "This is the Zodiac Speaking é um thriller psicológico de um jogador baseado em fatos reais, feito com base na história de Zodiac, um dos mais famosos assassinos em série jamais capturados.",
         "console": "PS4",
@@ -157,7 +157,7 @@
     },
     {
         "id": 13,
-        "nome": "Devil May Cry V: Special...",
+        "nome": "Devil May Cry V",
         "descricao": "Capcom U.S.A., Inc.",
         "sinopse": "O lendário estiloso jogo de ação está melhor do que nunca na versão definitiva deste premiado sucesso.",
         "console": "PS5",
@@ -170,7 +170,7 @@
     },
     {
         "id": 14,
-        "nome": "Assassin's Creed Valhalla",
+        "nome": "Assassin's Creed",
         "descricao": "Ubisoft",
         "sinopse": "Torne-se Eivor, um invasor Viking lendário em busca de glória. Explore a Idade das Trevas da Inglaterra enquanto ataca seus inimigos, amplia seu assentamento e consolida seu poder político.",
         "console": "PS4",
@@ -183,7 +183,7 @@
     },
     {
         "id": 15,
-        "nome": "Need For Speed Hot Pur...",
+        "nome": "Need For Speed",
         "descricao": "EA Sports",
         "sinopse": "Sinta a emoção da perseguição e a adrenalina da fuga. Sinta a sensação extrema de velocidade, tanto como fora da lei quanto como policial, nos carros mais potentes do mundo.",
         "console": "PS4",
@@ -197,7 +197,7 @@
     {
         "id": 16,
         "nome": "Apex Legends",
-        "descricao": "",
+        "descricao": "EA / Respawn",
         "sinopse": "Nesse jogo atmosférico em primeira pessoa, desenvolvido exclusivamente para a realidade virtual, o destino da humanidade depende de você – o último humano vivo.",
         "console": "PS4",
         "valor": 29.00,
@@ -209,7 +209,7 @@
     },
     {
         "id": 17,
-        "nome": "The Dark Pictures Anthology: Little Hope",
+        "nome": "The Dark Pictures",
         "descricao": "Bandai Namco / Supermassive",
         "sinopse": "Quatro estudantes e um professor ficam presos na cidade abandonada de Little Hope. Encurralados por um nevoeiro impenetrável, eles tentam fugir desesperadamente enquanto têm visões horripilantes do passado.",
         "console": "XBOX",
@@ -222,7 +222,7 @@
     },
     {
         "id": 18,
-        "nome": "Diablo III: Eternal Collection",
+        "nome": "Diablo III",
         "descricao": "Blizzard Entertainment",
         "sinopse": "Gerações de jogadores se digladiaram com as hordas demoníacas de Diablo, e agora chegou a sua vez de mergulhar no legado deste RPG de ação.",
         "console": "XBOX",
@@ -261,7 +261,7 @@
     },
     {
         "id": 21,
-        "nome": "Sackboy: Uma Grande Aventura",
+        "nome": "Sackboy",
         "descricao": "SIE / Sumo Digital",
         "sinopse": "Encare desafios emocionantes e imprevisíveis enquanto explora terras distintas e feitas com todo o requinte, tudo com controles envolventes e que permitem que você se expresse.",
         "console": "PS4",
@@ -274,7 +274,7 @@
     },
     {
         "id": 22,
-        "nome": "DEATH STRANDING Digital Deluxe Edition",
+        "nome": "DEATH STRANDING",
         "descricao": "SIE / Kojima Productions",
         "sinopse": "Carregando os vestígios desconectados do nosso futuro em suas mãos, ele embarca em uma jornada para reconectar o mundo despedaçado passo a passo.",
         "console": "PS4",
@@ -313,7 +313,7 @@
     },
     {
         "id": 25,
-        "nome": "The Witcher 3: Wild Hunt – Complete Edition",
+        "nome": "The Witcher 3",
         "descricao": "WB Games / CD Project Red",
         "sinopse": "Torne-se um mercenário caçador de monstros e embarque em uma épica jornada para encontrar a criança da profecia, uma arma viva capaz de incríveis destruições.",
         "console": "PS4",

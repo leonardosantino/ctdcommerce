@@ -49,7 +49,7 @@ function About() {
     return (
         <>
             <Helmet>
-                <title>CTD Ecommerce | About</title>
+                <title>CTD GAMES | About</title>
             </Helmet>
             <Header currentlyPath="about"/>
 
