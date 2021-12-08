@@ -45,7 +45,7 @@ function Cart() {
                           description={
                             item.titleproduct + " " + item.descriptionproduct
                           }
-                          valor={item.valorproduct.toFixed(2)}
+                          valor={item.valorproduct}
                           quantity={item.quantity}
                           idproduct={item.idproduct}
                           isLiked={item.isLiked}
@@ -68,7 +68,10 @@ function Cart() {
                 <tbody>
                   <tr>
                     <th>Total</th>
-                    <th className="text-end">R$ {total.toFixed(2)}</th>
+                    <th className="text-end">R$ {total.toLocaleString(undefined, {
+                      minimumFractionDigits: 2,
+                      maximumFractionDigits: 2,
+                    })}</th>
                   </tr>
                   <tr>
                     <th colSpan="2" className="text-center checkount-col-check">
