@@ -10,6 +10,7 @@ function CartProduct({img, description, valor, quantity, idproduct, isLiked,}) {
       <th className="cart-col-img">
         <Image src={img} fluid />
       </th>
+
       <th className="cart-col-desc ">
         <span className="d-none d-md-block ">{description}</span>
       </th>
@@ -17,14 +18,7 @@ function CartProduct({img, description, valor, quantity, idproduct, isLiked,}) {
       <th className="cart-text-normal">R$ {valor}</th>
 
       <th className="cart-col-quantity cart-text-normal">
-        <input
-          type="number"
-          name="cart-quantity"
-          id="cart-quantity"
-          min="1"
-          defaultValue={quantity}
-          disabled={true}
-        />
+        <input type="number" name="cart-quantity" id="cart-quantity" min="1" defaultValue={quantity} disabled={true} />
       </th>
 
       {/* <th className="cart-text-normal">R$ 390,90</th> */}

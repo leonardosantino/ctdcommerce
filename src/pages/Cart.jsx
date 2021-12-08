@@ -1,5 +1,6 @@
 import "../assets/styles/cart.scss";
-import { Table, Row, Col, Container, Button } from "react-bootstrap";
+import cartempaty from "../assets/imgs/empty-cart.png"
+import { Table, Row, Col, Container, Button, Image } from "react-bootstrap";
 import CartProduct from "../components/CartProduct";
 import Header from "../components/Header";
 import { useCount } from "../context/Count";
@@ -37,6 +38,15 @@ function Cart() {
                   </tr>
                 </thead>
                 <tbody>
+
+                  {!product.length && (
+                    <tr >
+                      <th colSpan="5" className="cart-text-normal text-center py-5">
+                        <Image src={cartempaty} fluid />
+                      </th>
+                    </tr>
+                  )}
+
                   {product.map((item, index) => {
                     return (
                       <tr key={index}>
