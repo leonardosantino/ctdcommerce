@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: 'https://e-commerce-ctd.herokuapp.com'
+    baseURL: 'http://t1g2-env.eba-iszdt5mq.us-east-1.elasticbeanstalk.com'
 });
 
 async function apiProduct(params) {

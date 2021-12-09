@@ -18,7 +18,7 @@ function Games() {
 
         if(categoryname){
 
-            apiProduct(`/produto/categoria/${categoryname}`).then((response) => {
+            apiProduct(`/produto/categoria/${categoryname}/`).then((response) => {
                 setData(response.data)
             }).catch((error) => {
                 console.error(error)
@@ -26,7 +26,7 @@ function Games() {
 
         }else{
 
-            apiProduct("/produto").then((response) => {
+            apiProduct("/produto/").then((response) => {
                 setData(response.data)
             }).catch((error) => {
                 console.error(error)
