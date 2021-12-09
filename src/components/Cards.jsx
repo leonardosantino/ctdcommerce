@@ -5,9 +5,9 @@ import { useEffect } from "react";
 import { Button, Card } from "react-bootstrap";
 import { addToCart } from "../context/Count";
 
-function Cards({ img, title, description, console, valor, id, category}) {
+function Cards({ img, title, description, console, valor, id, category }) {
   const { product, setProduct } = useCount();
-  
+
   useEffect(() => {
     return;
   }, []);
@@ -19,7 +19,8 @@ function Cards({ img, title, description, console, valor, id, category}) {
   return (
     <>
       <Card className="card">
-        <Card.Img variant="top" src={img} alt={title} />
+
+        <Link className="card-title text-decoration-none" to={`/games/${category}/${id}`} ><Card.Img variant="top" src={img} alt={title} /></Link>
         <Card.Body className="card-body">
           <Card.Title>
             <Link className="card-title text-decoration-none" to={`/games/${category}/${id}`} > {title} </Link>
