@@ -18,17 +18,17 @@ function Collections() {
                     </Col>
                 </Row>
 
-                <Row xs={3} md={6} className="justify-content-center">
-                    <Col xs="auto" className="d-flex justify-content-center">
+                <Row xs={2} md={6} className="justify-content-center">
+                    <Col xs="auto"  className="d-flex justify-content-center">
                         <Image src={imgIndie} fluid />
                     </Col>
-                    <Col xs="auto" className="d-flex justify-content-center">
+                    <Col  className="d-flex justify-content-center">
                         <Image src={imgEditors} fluid />
                     </Col>
-                    <Col xs="auto" className="d-flex justify-content-center">
+                    <Col  className="d-flex justify-content-center">
                         <Image src={imgBataman} fluid />
                     </Col>
-                    <Col xs="auto" className="d-flex justify-content-center">
+                    <Col  className="d-flex justify-content-center">
                         <Image src={imgPvr} fluid />
                     </Col>
                     <Col className="d-flex justify-content-center">
