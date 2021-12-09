@@ -12,7 +12,7 @@ export function useCount() {
     if(prodLocal){
       setProduct(JSON.parse(prodLocal))
     }
-  }, [])
+  }, [setProduct])
 
   return { count, setCount, product, setProduct: (produto) => {
       setProduct(produto)
