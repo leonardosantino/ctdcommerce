@@ -51,9 +51,9 @@ function About() {
             <Helmet>
                 <title>CTD GAMES | About</title>
             </Helmet>
-            <Header currentlyPath="about"/>
+            <Header />
 
-            <Container>
+            <Container fluid className="about">
 
                 <div className="persona align-self-center">
                     <span className="persona-title persona">About</span>

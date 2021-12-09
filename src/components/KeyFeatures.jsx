@@ -1,4 +1,4 @@
-import "../assets/styles/keyfeatures.scss"
+import "../assets/styles/collections.scss"
 import imgViceral from "../assets/imgs/imgViceral.png"
 import imgLead from "../assets/imgs/imgLead.png"
 import imgDark from "../assets/imgs/imgDark.png"

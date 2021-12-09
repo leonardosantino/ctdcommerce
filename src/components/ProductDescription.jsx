@@ -19,7 +19,7 @@ function ProductDescription({ img, title, description, valor, id, sinopse }) {
   return (
     <>
       <Helmet>
-        <title>CTD GAMES | {title}</title>
+        <title>{title}</title>
       </Helmet>
       <Container fluid className="product-description">
         <Row>
@@ -37,7 +37,7 @@ function ProductDescription({ img, title, description, valor, id, sinopse }) {
               </Col>
             </Row>
             <Row>
-              <Col className="py-2 product-description-valor">R$ {valor.toLocaleString(undefined, {
+              <Col className="py-2 product-description-valor">R$ {valor?.toLocaleString(undefined, {
                 minimumFractionDigits: 2,
                 maximumFractionDigits: 2,
               })}</Col>

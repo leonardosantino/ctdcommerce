@@ -1,4 +1,6 @@
 .games {
+    min-height: 89.5vh;
+    background: #1F1F1F;
     .games-filter{
         .btn {
             font-family: 'Oswald', sans-serif;
@@ -6,12 +8,17 @@
             font-weight: bold;
             font-size: .75em;
             line-height: 1em;
-            color: #FFFFFF !important;
-            border-radius: 2em;
+            color: #c4c4c4 !important;
+            box-shadow: none;
+            border-radius: .75em;
         }
     }
     .games-filter-span{
-        border: solid 1px white;
-        border-radius: 2em;
+        border: solid 1px #8BD8F4;
+        border-radius: .75em;
     }
+    .active{
+        background-color: #414B72;
+    }
+
 }

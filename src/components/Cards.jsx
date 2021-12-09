@@ -1,11 +1,11 @@
 import "../assets/styles/card.scss";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useCount } from "../context/Count";
 import { useEffect } from "react";
 import { Button, Card } from "react-bootstrap";
 import { addToCart } from "../context/Count";
 
-function Cards({ img, title, description, console, valor, id }) {
+function Cards({ img, title, description, console, valor, id, category}) {
   const { product, setProduct } = useCount();
   
   useEffect(() => {
@@ -22,12 +22,7 @@ function Cards({ img, title, description, console, valor, id }) {
         <Card.Img variant="top" src={img} alt={title} />
         <Card.Body className="card-body">
           <Card.Title>
-            <NavLink
-              className="card-title text-decoration-none"
-              to={`/games/${id}`}
-            >
-              {title}
-            </NavLink>
+            <Link className="card-title text-decoration-none" to={`/games/${category}/${id}`} > {title} </Link>
           </Card.Title>
           <Card.Text className="card-text">{description}</Card.Text>
           <div className="card-cat my-2">

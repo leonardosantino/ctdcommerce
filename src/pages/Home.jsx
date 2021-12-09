@@ -13,7 +13,8 @@ function Home() {
                                 <title>CTD GAMES</title>
                         </Helmet>
 
-                        <Header currentlyPath="home" />
+                        <Header />
+                        <main className="home">
                         <CarouselHome />
                         <div className="my-5">
                                 <CarouselCard />
@@ -21,9 +22,12 @@ function Home() {
                         <div className="my-5">
                                 <KeyFeatures />
                         </div>
-                        <div className="my-5">
+                        <div className="mt-5">
                                 <Collections />
                         </div>
+
+
+                        </main>
                 </>
         );
 }

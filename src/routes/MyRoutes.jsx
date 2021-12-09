@@ -12,17 +12,18 @@ function MyRoutes() {
         <BrowserRouter>
             <HelmetProvider>
                 <Routes>
+
                     <Route path="/" element={<Home />} />
-                    <Route path="/games" element={<Games />} />
-                    <Route path="/games/category/:category" element={<Games />} />
 
-                    <Route path="/games/:id" element={<DescriptionProduct />} />
+                    <Route path="/games" element={<Games />} >
+                    <Route path=":categoryname" element={<Games />} />
+                    </Route>
 
+                    <Route path="/games/:categoryname/:id" element={<DescriptionProduct />} />
+                    
                     <Route path="/about" element={<About />} />
                     <Route path="/cart" element={<Cart />} />
-
                     <Route path="/*" element={<NotFound />} />
-
                 </Routes>
             </HelmetProvider>
         </BrowserRouter>
