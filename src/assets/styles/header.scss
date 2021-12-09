@@ -8,7 +8,14 @@ nav{
         
         background-color: #414B72 !important;
     }
-
+    .active{
+        background-color: #414B72 !important;
+        color: #8BD8F4 !important;
+        border-radius: .75em;
+        &:visited{
+            color:#8BD8F4 !important;
+        }
+    }
 
     .nav-link{
 
@@ -22,15 +29,7 @@ nav{
         }
         
     }
-    .active{
-        background-color: #414B72;
-        color: #c4c4c4;
-        border-radius: .75em;
-        &:visited{
-            color:#8BD8F4 ;
-        }
-
-    }
+    
     .cart-icon{
         background-image: url(../imgs/bag.svg);
         color: #8BD8F4;
@@ -68,11 +67,10 @@ nav{
     &:hover{
         color:#8BD8F4 !important;
     }
-
 }
-
 .offcanvas-title {
     img{
         max-width: 2.5em;
     }
 }
+
