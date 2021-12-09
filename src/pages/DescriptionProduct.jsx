@@ -13,7 +13,7 @@ function DescriptionProduct() {
 
   useEffect(() => {
 
-    apiProduct(`/produto/${id}`).then((response) => {
+    apiProduct(`/produto/${id}/`).then((response) => {
       setData(response.data)
 
     }).catch((error) => {

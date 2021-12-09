@@ -30,17 +30,17 @@ function Header() {
 
           <a href="#/" className="nav-link d-none d-lg-block"><i className="bi bi-person-circle"></i>&nbsp; SIGN IN</a>
 
-          <Navbar.Toggle aria-controls="offcanvasNavbar" className="d-lg-none" />
+          <Navbar.Toggle aria-controls="offcanvasNavbar"  className="d-lg-none" />
 
           <Navbar.Offcanvas id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" placement="end" >
 
             <Offcanvas.Header closeButton>
-              <Offcanvas.Title id="offcanvasNavbarLabel">CTD GAMES</Offcanvas.Title>
+              <Offcanvas.Title id="offcanvasNavbarLabel" ><Image src={logo} fluid /></Offcanvas.Title>
             </Offcanvas.Header>
 
             <Offcanvas.Body>
               <Nav className="justify-content-end text-center flex-grow-1 pe-3">
-              <a href="#/" className="text-decoration-none nav-link "><i className="bi bi-search"></i>&nbsp; SEARCH</a>
+              <a href="#/" className="text-decoration-none nav-link navbodylink"><i className="bi bi-search"></i>&nbsp; SEARCH</a>
               <a href="#/" className="text-decoration-none nav-link "><i className="bi bi-person-circle"></i>&nbsp; SIGN IN</a>
 
               <Link to="/about" className="text-decoration-none nav-link ">ABOUT</Link>

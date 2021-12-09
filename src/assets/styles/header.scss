@@ -6,15 +6,15 @@ nav{
 
     .navbar-toggler{
         
-        box-shadow: none ;
-        border: none ;
+        background-color: #414B72 !important;
     }
+
 
     .nav-link{
 
         font-style: normal;
         font-weight: bold;
-        color: #c4c4c4 ;
+        color: #c4c4c4 !important;
         font-size: 1em;
         line-height: 1em;
         &:hover{
@@ -55,5 +55,24 @@ nav{
     }
     .logo{
         max-width: 3em;
+    }
+}
+
+.navbar-nav .nav-link {
+    font-family: 'Oswald', sans-serif ;
+    font-style: normal;
+    font-weight: bold;
+    color: #414B72 !important;
+    font-size: 1em;
+    line-height: 1em;
+    &:hover{
+        color:#8BD8F4 !important;
+    }
+
+}
+
+.offcanvas-title {
+    img{
+        max-width: 2.5em;
     }
 }

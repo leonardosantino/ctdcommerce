@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import CountProvider from '../context/Count';
 import About from '../pages/About';
 import Home from '../pages/Home';
 import Games from '../pages/Games';
@@ -11,20 +12,22 @@ function MyRoutes() {
     return (
         <BrowserRouter>
             <HelmetProvider>
-                <Routes>
+                <CountProvider>
+                    <Routes>
 
-                    <Route path="/" element={<Home />} />
+                        <Route path="/" element={<Home />} />
 
-                    <Route path="/games" element={<Games />} >
-                    <Route path=":categoryname" element={<Games />} />
-                    </Route>
+                        <Route path="/games" element={<Games />} >
+                            <Route path=":categoryname" element={<Games />} />
+                        </Route>
 
-                    <Route path="/games/:categoryname/:id" element={<DescriptionProduct />} />
-                    
-                    <Route path="/about" element={<About />} />
-                    <Route path="/cart" element={<Cart />} />
-                    <Route path="/*" element={<NotFound />} />
-                </Routes>
+                        <Route path="/games/:categoryname/:id" element={<DescriptionProduct />} />
+
+                        <Route path="/about" element={<About />} />
+                        <Route path="/cart" element={<Cart />} />
+                        <Route path="/*" element={<NotFound />} />
+                    </Routes>
+                </CountProvider>
             </HelmetProvider>
         </BrowserRouter>
     )
