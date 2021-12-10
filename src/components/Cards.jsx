@@ -21,15 +21,15 @@ function Cards({ img, title, description, console, valor, id, category }) {
       <Card className="card">
 
         <Link className="card-title text-decoration-none" to={`/games/${category}/${id}`} ><Card.Img variant="top" src={img} alt={title} /></Link>
-        <Card.Body className="card-body">
+        <Card.Body className="card-body p-0 m-0">
           <Card.Title>
-            <Link className="card-title text-decoration-none" to={`/games/${category}/${id}`} > {title} </Link>
+            <Link className="card-title text-decoration-none ps-1" to={`/games/${category}/${id}`} > {title} </Link>
           </Card.Title>
-          <Card.Text className="card-text">{description}</Card.Text>
-          <div className="card-cat my-2">
-            <span className="consol">{console}</span>
+          <Card.Text className="card-text ps-1">{description}</Card.Text>
+          <div className="card-cat my-2 ">
+            <span className="consol ms-1">{console}</span>
           </div>
-          <div className="card-btn my-2">
+          <div className="card-btn mt-3">
             <Button onClick={handleClick} variant="primary">
               <i className="bi bi-bag"></i>&nbsp; R${" "}
               {valor.toLocaleString(undefined, {
