@@ -9,8 +9,10 @@ async function apiProduct(params) {
     return await api.get(params, {
         method: 'GET',
         headers: {
-            'Access-Control-Allow-Origin': '*',
-            'Content-Type': 'application/json'
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Headers": "Content-Type",
+            "Access-Control-Request-Method": "GET, OPTIONS",
+            "Access-Control-Allow-Origin": "*"
         }
     })
 }
