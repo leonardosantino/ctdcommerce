@@ -6,7 +6,13 @@ const api = axios.create({
 
 async function apiProduct(params) {
 
-    return await api.get(params,{headers: {'Access-Control-Allow-Origin': '*'}})
+    return await api.get(params, {
+        method: 'GET',
+        headers: {
+            'Access-Control-Allow-Origin': '*',
+            'Content-Type': 'application/json'
+        }
+    })
 }
 
 export default apiProduct;
